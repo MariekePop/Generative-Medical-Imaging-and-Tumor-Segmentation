@@ -1,0 +1,35 @@
+#!/bin/bash
+#
+# slurm specific parameters should be defined as comment line starting with #SBATCH
+#SBATCH --job-name=nnunet3
+#SBATCH --output=nnunet3.out
+#SBATCH --gres=gpu:4g.40gb:1       # number of GPUs (type MIG 1g.10gb)
+#SBATCH --partition=luna-gpu-short  # using luna-gpu-short queue for a job that request up to 8h
+#SBATCH --mem=32G                   # max memory per node
+#SBATCH --cpus-per-task=4          # max CPU cores per process
+#SBATCH --time=00-4:00             # time limit (DD-HH:MM)
+#SBATCH --nice=1               # allow other priority jobs to go first
+
+export MKL_INTERFACE_LAYER=${MKL_INTERFACE_LAYER:-LP64}
+
+export nnUNet_raw=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw
+export nnUNet_preprocessed=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed
+export nnUNet_results=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_results
+
+module load Anaconda3/2024.02-1
+
+# some applications can use a specific number of cores, so specify how many are reserved
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+
+# just print which gpu device was selected by slurm
+echo "CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES"
+
+# make sure the required applications and versions are enabled
+
+# Activate your virtual environment
+conda activate nnunet_env2
+python -c "import torch; print(torch.__version__, torch.cuda.is_available())"
+python -c "from medpy.metric.binary import hd95; print('✅ MedPy is available')"
+
+python -m nnunetv2.run.run_training 520 3d_fullres 0 --c
+

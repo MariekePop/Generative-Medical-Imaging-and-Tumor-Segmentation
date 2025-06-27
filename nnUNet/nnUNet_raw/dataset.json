@@ -1,0 +1,25 @@
+{
+    "name": "nnUNet_raw",
+    "description": "Auto-generated for nnUNet_raw",
+    "tensorImageSize": "3D",
+    "reference": "n/a",
+    "licence": "n/a",
+    "release": "0.0",
+    "modality": {
+        "0": "T1",
+        "1": "T1C",
+        "2": "T2",
+        "3": "STIR",
+        "4": "DWI",
+        "5": "ADC"
+    },
+    "labels": {
+        "0": "background",
+        "1": "cancer"
+    },
+    "numTraining": 0,
+    "numTest": 0,
+    "training": [],
+    "test": [],
+    "overwrite_image_reader_writer": "SimpleITKIO"
+}

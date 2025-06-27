@@ -1,0 +1,25 @@
+#!/bin/bash
+#
+#SBATCH --job-name=nnunetall_eval
+#SBATCH --output=nnunetall_eval.out
+#SBATCH --gres=gpu:4g.40gb:1       # Number of GPUs (type MIG 1g.10gb)
+#SBATCH --partition=luna-gpu-short # Using luna-gpu-short queue for jobs up to 8h
+#SBATCH --mem=8G                   # Max memory per node
+#SBATCH --cpus-per-task=1          # Max CPU cores per process
+#SBATCH --time=0-00:20             # Time limit (DD-HH:MM)
+#SBATCH --nice=999                 # Allow other priority jobs to go first
+
+
+# Define nnUNet environment variables
+export nnUNet_raw=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw
+export nnUNet_preprocessed=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed
+export nnUNet_results=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_results
+
+module load Anaconda3/2024.02-1
+CONDA_BASE=$(conda info --base)
+source $CONDA_BASE/etc/profile.d/conda.sh
+# Activate the nnUNet environment
+conda activate nnunet_env2
+echo "Which wrapper am I using? $(which nnUNetv2_evaluate_folder)"
+
+nnUNetv2_evaluate_folder -djfile /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/dataset.json -pfile /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed/Dataset520_NeckTumour/nnUNetPlans.json -o /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/evaluation_results/resultspostextra.json /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_postprocessed

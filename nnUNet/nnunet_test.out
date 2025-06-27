@@ -1,0 +1,268 @@
+“CUDA_VISIBLE_DEVICES=0”
+/home/rth/jdekok/thesis_folder/nnunetv2/nnUNet/nnunetv2/inference/predict_from_raw_data.py:84: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(join(model_training_output_dir, f'fold_{f}', checkpoint_name),
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+There are 16 cases in the source folder
+I am process 0 out of 1 (max process ID is 0, we start counting with 0!)
+There are 16 cases that I would like to predict
+
+Predicting 000:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 560, 560])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 560, 560]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 120, 240], [0, 120, 240]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:01<00:43,  1.66s/it]  7%|▋         | 2/27 [00:01<00:19,  1.29it/s] 11%|█         | 3/27 [00:02<00:13,  1.83it/s] 15%|█▍        | 4/27 [00:02<00:10,  2.27it/s] 19%|█▊        | 5/27 [00:02<00:08,  2.62it/s] 22%|██▏       | 6/27 [00:02<00:07,  2.89it/s] 26%|██▌       | 7/27 [00:03<00:06,  3.09it/s] 30%|██▉       | 8/27 [00:03<00:05,  3.24it/s] 33%|███▎      | 9/27 [00:03<00:05,  3.35it/s] 37%|███▋      | 10/27 [00:04<00:04,  3.42it/s] 41%|████      | 11/27 [00:04<00:04,  3.47it/s] 44%|████▍     | 12/27 [00:04<00:04,  3.52it/s] 48%|████▊     | 13/27 [00:04<00:03,  3.54it/s] 52%|█████▏    | 14/27 [00:05<00:03,  3.56it/s] 56%|█████▌    | 15/27 [00:05<00:03,  3.58it/s] 59%|█████▉    | 16/27 [00:05<00:03,  3.59it/s] 63%|██████▎   | 17/27 [00:05<00:02,  3.59it/s] 67%|██████▋   | 18/27 [00:06<00:02,  3.60it/s] 70%|███████   | 19/27 [00:06<00:02,  3.60it/s] 74%|███████▍  | 20/27 [00:06<00:01,  3.60it/s] 78%|███████▊  | 21/27 [00:07<00:01,  3.60it/s] 81%|████████▏ | 22/27 [00:07<00:01,  3.60it/s] 85%|████████▌ | 23/27 [00:07<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:07<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:08<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:08<00:00,  3.61it/s]100%|██████████| 27/27 [00:08<00:00,  3.61it/s]100%|██████████| 27/27 [00:08<00:00,  3.09it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 000
+
+Predicting 001:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 520, 558])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 520, 558]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 100, 200], [0, 119, 238]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:04,  5.45it/s]  7%|▋         | 2/27 [00:00<00:05,  4.37it/s] 11%|█         | 3/27 [00:00<00:06,  3.75it/s] 15%|█▍        | 4/27 [00:00<00:05,  3.93it/s] 19%|█▊        | 5/27 [00:01<00:05,  3.78it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.76it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.64it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.70it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.66it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.65it/s] 41%|████      | 11/27 [00:02<00:04,  3.64it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.63it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.62it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.62it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.62it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:05<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.67it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 001
+
+Predicting 002:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 512, 559])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 512, 559]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 96, 192], [0, 120, 239]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:09,  2.66it/s]  7%|▋         | 2/27 [00:00<00:07,  3.43it/s] 11%|█         | 3/27 [00:00<00:07,  3.14it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.66it/s] 19%|█▊        | 5/27 [00:01<00:06,  3.64it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.62it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.63it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.62it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.62it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.61it/s] 41%|████      | 11/27 [00:03<00:04,  3.61it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.61it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.61it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.61it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:05<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:06<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.58it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 002
+
+Predicting 003:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 508, 560])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 508, 560]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 94, 188], [0, 120, 240]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:09,  2.78it/s]  7%|▋         | 2/27 [00:00<00:06,  3.84it/s] 11%|█         | 3/27 [00:00<00:06,  3.71it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.69it/s] 19%|█▊        | 5/27 [00:01<00:06,  3.66it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.64it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.63it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.63it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.62it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.62it/s] 41%|████      | 11/27 [00:03<00:04,  3.61it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.61it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.61it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.61it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:06<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 003
+
+Predicting 004:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 529, 560])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 529, 560]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 104, 209], [0, 120, 240]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:07,  3.64it/s]  7%|▋         | 2/27 [00:00<00:07,  3.50it/s] 11%|█         | 3/27 [00:00<00:06,  3.66it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.63it/s] 19%|█▊        | 5/27 [00:01<00:06,  3.63it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.62it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.62it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.62it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.61it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.61it/s] 41%|████      | 11/27 [00:03<00:04,  3.61it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.61it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.61it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.61it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:06<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 004
+
+Predicting 005:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 511, 560])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 511, 560]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 96, 191], [0, 120, 240]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:11,  2.32it/s]  7%|▋         | 2/27 [00:00<00:08,  2.89it/s] 11%|█         | 3/27 [00:00<00:06,  3.60it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.60it/s] 19%|█▊        | 5/27 [00:01<00:06,  3.60it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.60it/s] 26%|██▌       | 7/27 [00:02<00:05,  3.61it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.61it/s] 33%|███▎      | 9/27 [00:02<00:05,  3.60it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.61it/s] 41%|████      | 11/27 [00:03<00:04,  3.61it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.61it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.61it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.61it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:05<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:06<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:07<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.57it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 005
+
+Predicting 006:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 515, 558])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 515, 558]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 98, 195], [0, 119, 238]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:05,  5.14it/s]  7%|▋         | 2/27 [00:00<00:06,  3.82it/s] 11%|█         | 3/27 [00:00<00:06,  3.66it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.54it/s] 19%|█▊        | 5/27 [00:01<00:05,  3.70it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.76it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.68it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.68it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.66it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.65it/s] 41%|████      | 11/27 [00:02<00:04,  3.63it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.63it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.62it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.62it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.62it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:06<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.64it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 006
+
+Predicting 007:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 516, 559])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 516, 559]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 98, 196], [0, 120, 239]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:06,  3.75it/s]  7%|▋         | 2/27 [00:00<00:07,  3.16it/s] 11%|█         | 3/27 [00:00<00:07,  3.17it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.46it/s] 19%|█▊        | 5/27 [00:01<00:05,  3.73it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.70it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.67it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.65it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.63it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.63it/s] 41%|████      | 11/27 [00:03<00:04,  3.62it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.62it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.62it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.61it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:05<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:06<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.60it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 007
+
+Predicting 008:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 522, 558])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 522, 558]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 101, 202], [0, 119, 238]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:05,  5.10it/s]  7%|▋         | 2/27 [00:00<00:06,  3.95it/s] 11%|█         | 3/27 [00:00<00:06,  3.89it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.78it/s] 19%|█▊        | 5/27 [00:01<00:05,  3.73it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.67it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.67it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.65it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.63it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.63it/s] 41%|████      | 11/27 [00:02<00:04,  3.62it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.62it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.61it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.61it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:06<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.65it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 008
+
+Predicting 009:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 532, 558])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 532, 558]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 106, 212], [0, 119, 238]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:09,  2.88it/s]  7%|▋         | 2/27 [00:00<00:07,  3.49it/s] 11%|█         | 3/27 [00:00<00:06,  3.66it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.62it/s] 19%|█▊        | 5/27 [00:01<00:06,  3.63it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.62it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.62it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.62it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.62it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.62it/s] 41%|████      | 11/27 [00:03<00:04,  3.61it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.61it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.61it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.61it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:05<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:06<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.60it/s]
+old shape: (29, 520, 558), new_shape: [ 29 520 558], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7fb163551ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 529, 560), new_shape: [ 29 529 560], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7fb163551ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 516, 559), new_shape: [ 29 516 559], old_spacing: [4.40000057220459, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7fb163551ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 531, 560), new_shape: [ 29 531 560], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7fb163551ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 531, 560), new_shape: [ 29 531 560], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7fb163551ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 009
+
+Predicting 010:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 531, 560])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 531, 560]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 106, 211], [0, 120, 240]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:05,  4.64it/s]  7%|▋         | 2/27 [00:00<00:07,  3.36it/s] 11%|█         | 3/27 [00:00<00:07,  3.22it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.52it/s] 19%|█▊        | 5/27 [00:01<00:06,  3.48it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.80it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.74it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.70it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.67it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.65it/s] 41%|████      | 11/27 [00:03<00:04,  3.64it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.63it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.62it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.62it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.62it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:06<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.62it/s]
+old shape: (29, 512, 559), new_shape: [ 29 512 559], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7fef0b87dab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 511, 560), new_shape: [ 29 511 560], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7fef0b87dab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 522, 558), new_shape: [ 29 522 558], old_spacing: [4.40000057220459, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7fef0b87dab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 510, 559), new_shape: [ 29 510 559], old_spacing: [4.40000057220459, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7fef0b87dab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 513, 558), new_shape: [ 29 513 558], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7fef0b87dab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 010
+
+Predicting 011:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 510, 559])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 510, 559]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 95, 190], [0, 120, 239]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:04,  5.23it/s]  7%|▋         | 2/27 [00:00<00:06,  3.96it/s] 11%|█         | 3/27 [00:00<00:06,  3.83it/s] 15%|█▍        | 4/27 [00:01<00:05,  3.94it/s] 19%|█▊        | 5/27 [00:01<00:05,  3.88it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.79it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.73it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.69it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.66it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.65it/s] 41%|████      | 11/27 [00:02<00:04,  3.63it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.63it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.62it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.62it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.62it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:05<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.67it/s]
+old shape: (29, 560, 560), new_shape: [ 29 560 560], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7f82f1795ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 508, 560), new_shape: [ 29 508 560], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7f82f1795ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 515, 558), new_shape: [ 29 515 558], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7f82f1795ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 532, 558), new_shape: [ 29 532 558], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7f82f1795ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 532, 560), new_shape: [ 29 532 560], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7f82f1795ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+old shape: (29, 531, 558), new_shape: [ 29 531 558], old_spacing: [4.400000095367432, 0.4296875, 0.4296875], new_spacing: [4.400000095367432, 0.4296875, 0.4296875], fn_data: functools.partial(<function resample_data_or_seg_to_shape at 0x7f82f1795ab0>, is_seg=False, order=3, order_z=0, force_separate_z=None)
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 011
+
+Predicting 012:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 532, 560])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 532, 560]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 106, 212], [0, 120, 240]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:05,  4.50it/s]  7%|▋         | 2/27 [00:00<00:05,  4.42it/s] 11%|█         | 3/27 [00:00<00:05,  4.04it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.80it/s] 19%|█▊        | 5/27 [00:01<00:05,  3.76it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.73it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.69it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.66it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.65it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.63it/s] 41%|████      | 11/27 [00:02<00:04,  3.63it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.62it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.62it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.62it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:05<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.66it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 012
+
+Predicting 013:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 531, 560])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 531, 560]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 106, 211], [0, 120, 240]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:07,  3.41it/s]  7%|▋         | 2/27 [00:00<00:06,  3.85it/s] 11%|█         | 3/27 [00:00<00:05,  4.18it/s] 15%|█▍        | 4/27 [00:01<00:05,  3.93it/s] 19%|█▊        | 5/27 [00:01<00:05,  3.81it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.74it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.70it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.67it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.65it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.64it/s] 41%|████      | 11/27 [00:02<00:04,  3.63it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.62it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.62it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.62it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.62it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:06<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.65it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 013
+
+Predicting 014:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 513, 558])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 513, 558]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 96, 193], [0, 119, 238]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:04,  6.38it/s]  7%|▋         | 2/27 [00:00<00:05,  4.35it/s] 11%|█         | 3/27 [00:00<00:06,  3.96it/s] 15%|█▍        | 4/27 [00:00<00:06,  3.80it/s] 19%|█▊        | 5/27 [00:01<00:05,  3.75it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.72it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.69it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.66it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.65it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.63it/s] 41%|████      | 11/27 [00:02<00:04,  3.63it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.62it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.62it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.62it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:05<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.67it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 014
+
+Predicting 015:
+perform_everything_on_device: True
+Input shape: torch.Size([6, 29, 531, 558])
+step_size: 0.5
+mirror_axes: (0, 1, 2)
+n_steps 27, image size is torch.Size([29, 531, 558]), tile_size [16, 320, 320], tile_step_size 0.5
+steps:
+[[0, 6, 13], [0, 106, 211], [0, 119, 238]]
+move image to device cuda
+preallocating results arrays on device cuda
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:05,  4.88it/s]  7%|▋         | 2/27 [00:00<00:05,  4.27it/s] 11%|█         | 3/27 [00:00<00:06,  3.96it/s] 15%|█▍        | 4/27 [00:01<00:06,  3.81it/s] 19%|█▊        | 5/27 [00:01<00:05,  3.74it/s] 22%|██▏       | 6/27 [00:01<00:05,  3.69it/s] 26%|██▌       | 7/27 [00:01<00:05,  3.67it/s] 30%|██▉       | 8/27 [00:02<00:05,  3.65it/s] 33%|███▎      | 9/27 [00:02<00:04,  3.64it/s] 37%|███▋      | 10/27 [00:02<00:04,  3.63it/s] 41%|████      | 11/27 [00:02<00:04,  3.62it/s] 44%|████▍     | 12/27 [00:03<00:04,  3.62it/s] 48%|████▊     | 13/27 [00:03<00:03,  3.62it/s] 52%|█████▏    | 14/27 [00:03<00:03,  3.62it/s] 56%|█████▌    | 15/27 [00:04<00:03,  3.61it/s] 59%|█████▉    | 16/27 [00:04<00:03,  3.61it/s] 63%|██████▎   | 17/27 [00:04<00:02,  3.61it/s] 67%|██████▋   | 18/27 [00:04<00:02,  3.61it/s] 70%|███████   | 19/27 [00:05<00:02,  3.61it/s] 74%|███████▍  | 20/27 [00:05<00:01,  3.61it/s] 78%|███████▊  | 21/27 [00:05<00:01,  3.61it/s] 81%|████████▏ | 22/27 [00:05<00:01,  3.61it/s] 85%|████████▌ | 23/27 [00:06<00:01,  3.61it/s] 89%|████████▉ | 24/27 [00:06<00:00,  3.61it/s] 93%|█████████▎| 25/27 [00:06<00:00,  3.61it/s] 96%|█████████▋| 26/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.61it/s]100%|██████████| 27/27 [00:07<00:00,  3.66it/s]
+Prediction done
+sending off prediction to background worker for resampling and export
+done with 015

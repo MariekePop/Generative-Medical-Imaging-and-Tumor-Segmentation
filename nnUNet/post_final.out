@@ -1,0 +1,5 @@
+CUDA_VISIBLE_DEVICES=0
+usage: Apples postprocessing specified in pp_pkl_file to input folder.
+       [-h] -i I -o O -pp_pkl_file PP_PKL_FILE [-np NP]
+       [-plans_json PLANS_JSON] [-dataset_json DATASET_JSON]
+Apples postprocessing specified in pp_pkl_file to input folder.: error: the following arguments are required: -pp_pkl_file

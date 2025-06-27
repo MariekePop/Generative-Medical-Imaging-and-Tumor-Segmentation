@@ -1,0 +1,38 @@
+#!/bin/bash
+#
+#SBATCH --job-name=nnunetall_test
+#SBATCH --output=nnunetall_test.out
+#SBATCH --gres=gpu:4g.40gb:1       # Number of GPUs (type MIG 1g.10gb)
+#SBATCH --partition=luna-gpu-short # Using luna-gpu-short queue for jobs up to 8h
+#SBATCH --mem=32G                   # Max memory per node
+#SBATCH --cpus-per-task=1          # Max CPU cores per process
+#SBATCH --time=0-00:45             # Time limit (DD-HH:MM)
+#SBATCH --nice=999                 # Allow other priority jobs to go first
+
+set -eu    # Exit immediately on error or on undefined variable
+
+# Define nnUNet environment variables
+export nnUNet_raw=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw
+export nnUNet_preprocessed=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed
+export nnUNet_results=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_results
+
+module load Anaconda3/2024.02-1
+
+# Specify the number of threads for OpenMP
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+
+# Print GPU device selected by Slurm
+echo “CUDA_VISIBLE_DEVICES=$CUDA_VISIBLE_DEVICES”
+
+# Activate the nnUNet environment
+conda activate nnunet_env
+
+# Run the prediction command
+nnUNetv2_predict -i /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/imagesTs \
+                 -o /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions \
+                 -d 520 \
+                 -f 0 \
+ 		 -tr nnUNetTrainer \
+ 		 -c 3d_fullres \
+ 		 -p nnUNetPlans
+
