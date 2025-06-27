@@ -1,12 +1,34 @@
-name: nestedformer
+name: nnunetv2
 channels:
-  - https://repo.anaconda.com/pkgs/main
-  - https://repo.anaconda.com/pkgs/r
-  - https://repo.anaconda.com/pkgs/msys2
+  - pytorch          # official PyTorch binaries
+  - nvidia           # CUDA toolkit
+  - conda-forge      # everything else
 dependencies:
+  # ---------- core ----------
   - python=3.10
-  - pytorch
-  - torchvision
-  - pytorch-cuda=11.8
-  - torchaudio
-prefix: C:\Users\P095789\Miniconda3\envs\nestedformer
+  - pip
+  # ---------- deep-learning stack (GPU build) ----------
+  - pytorch=2.3.0
+  - torchvision=0.18.0
+  - torchaudio=2.3.0
+  - cudatoolkit=11.8        # ← remove this line (and the 3 ↑) for CPU-only
+  # ---------- scientific + I/O ----------
+  - numpy
+  - scipy
+  - scikit-image
+  - scikit-learn
+  - pandas
+  - matplotlib
+  - nibabel
+  - simpleitk
+  - tqdm
+  - pydicom
+  # ---------- pip installs (pulled exactly from nnUNet’s setup) ----------
+  - pip:
+      - nnunetv2==2.6.1
+      - hiddenlayer
+      - acvl-utils>=0.2.3,<0.3
+      - dynamic-network-architectures>=0.3.1,<0.4
+      - dicom2nifti
+      - einops
+      - blosc2>=3.0.0b1
