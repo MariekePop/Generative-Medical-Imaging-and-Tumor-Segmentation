@@ -1,0 +1,220 @@
+epoch:1, metric:{'TC_dice': 0.0, 'WT_dice': 0.0, 'ET_dice': 0.0}
+epoch: 1, avg metric: 0.0
+epoch:1, best metric:0.0
+epoch: 1, best avg metric: 0.0
+********************
+epoch:2, metric:{'TC_dice': 0.0, 'WT_dice': 0.0, 'ET_dice': 0.0}
+epoch: 2, avg metric: 0.0
+epoch:2, best metric:0.0
+epoch: 2, best avg metric: 0.0
+********************
+epoch:1, metric:{'TC_dice': 0.0, 'WT_dice': 0.0, 'ET_dice': 0.0}
+epoch: 1, avg metric: 0.0
+epoch:1, best metric:0.0
+epoch: 1, best avg metric: 0.0
+********************
+epoch:2, metric:{'TC_dice': 0.0, 'WT_dice': 0.0, 'ET_dice': 0.0}
+epoch: 2, avg metric: 0.0
+epoch:2, best metric:0.0
+epoch: 2, best avg metric: 0.0
+********************
+epoch:1, metric:{'TC_dice': 0.0, 'WT_dice': 0.0, 'ET_dice': 0.0}
+epoch: 1, avg metric: 0.0
+epoch:1, best metric:0.0
+epoch: 1, best avg metric: 0.0
+********************
+epoch:1, metric:{'TC_dice': 0.008679837919771671, 'WT_dice': 0.11197064071893692, 'ET_dice': 0.0212032999843359}
+epoch: 1, avg metric: 0.047284592874348164
+epoch:1, best metric:{'TC_dice': 0.008679837919771671, 'WT_dice': 0.11197064071893692, 'ET_dice': 0.0212032999843359}
+epoch: 1, best avg metric: 0.047284592874348164
+********************
+epoch:1, metric:{'TC_dice': 0.009179910644888878, 'WT_dice': 0.06446866691112518, 'ET_dice': 0.00044265371980145574}
+epoch: 1, avg metric: 0.024697077091938507
+epoch:1, best metric:{'TC_dice': 0.009179910644888878, 'WT_dice': 0.06446866691112518, 'ET_dice': 0.00044265371980145574}
+epoch: 1, best avg metric: 0.024697077091938507
+********************
+epoch:2, metric:{'TC_dice': 0.009360125288367271, 'WT_dice': 0.34641164541244507, 'ET_dice': 0.008181063458323479}
+epoch: 2, avg metric: 0.1213176113863786
+epoch:2, best metric:{'TC_dice': 0.009360125288367271, 'WT_dice': 0.34641164541244507, 'ET_dice': 0.008181063458323479}
+epoch: 2, best avg metric: 0.1213176113863786
+********************
+epoch:5, metric:{'TC_dice': 0.15984362363815308, 'WT_dice': 0.12804609537124634, 'ET_dice': 0.0035903737880289555}
+epoch: 5, avg metric: 0.09716003093247612
+epoch:5, best metric:{'TC_dice': 0.15984362363815308, 'WT_dice': 0.12804609537124634, 'ET_dice': 0.0035903737880289555}
+epoch: 5, best avg metric: 0.09716003093247612
+********************
+epoch:10, metric:{'TC_dice': 0.2632887065410614, 'WT_dice': 0.20086070895195007, 'ET_dice': 0.01982332393527031}
+epoch: 10, avg metric: 0.16132424647609392
+epoch:10, best metric:{'TC_dice': 0.2632887065410614, 'WT_dice': 0.20086070895195007, 'ET_dice': 0.01982332393527031}
+epoch: 10, best avg metric: 0.16132424647609392
+********************
+epoch:1, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 18371.5, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9076028.5, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 18371.5}
+epoch: 1, avg metric: 0.0
+epoch:1, best metric:0.0
+epoch: 1, best avg metric: 0.0
+********************
+epoch:2, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 18371.5, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9076028.5, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 18371.5}
+epoch: 2, avg metric: 0.0
+epoch:2, best metric:0.0
+epoch: 2, best avg metric: 0.0
+********************
+epoch:1, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 1, avg metric: 0.0
+epoch:1, best metric:0.0
+epoch: 1, best avg metric: 0.0
+********************
+epoch:1, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 1, avg metric: 0.0
+epoch:1, best metric:0.0
+epoch: 1, best avg metric: 0.0
+********************
+epoch:10, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 10, avg metric: 0.0
+epoch:10, best metric:0.0
+epoch: 10, best avg metric: 0.0
+********************
+epoch:20, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 20, avg metric: 0.0
+epoch:20, best metric:0.0
+epoch: 20, best avg metric: 0.0
+********************
+epoch:30, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 30, avg metric: 0.0
+epoch:30, best metric:0.0
+epoch: 30, best avg metric: 0.0
+********************
+epoch:40, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 40, avg metric: 0.0
+epoch:40, best metric:0.0
+epoch: 40, best avg metric: 0.0
+********************
+epoch:50, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 50, avg metric: 0.0
+epoch:50, best metric:0.0
+epoch: 50, best avg metric: 0.0
+********************
+epoch:60, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 60, avg metric: 0.0
+epoch:60, best metric:0.0
+epoch: 60, best avg metric: 0.0
+********************
+epoch:70, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 70, avg metric: 0.0
+epoch:70, best metric:0.0
+epoch: 70, best avg metric: 0.0
+********************
+epoch:80, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 80, avg metric: 0.0
+epoch:80, best metric:0.0
+epoch: 80, best avg metric: 0.0
+********************
+epoch:90, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 90, avg metric: 0.0
+epoch:90, best metric:0.0
+epoch: 90, best avg metric: 0.0
+********************
+epoch:100, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 100, avg metric: 0.0
+epoch:100, best metric:0.0
+epoch: 100, best avg metric: 0.0
+********************
+epoch:110, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 110, avg metric: 0.0
+epoch:110, best metric:0.0
+epoch: 110, best avg metric: 0.0
+********************
+epoch:120, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 120, avg metric: 0.0
+epoch:120, best metric:0.0
+epoch: 120, best avg metric: 0.0
+********************
+epoch:130, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 130, avg metric: 0.0
+epoch:130, best metric:0.0
+epoch: 130, best avg metric: 0.0
+********************
+epoch:140, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 140, avg metric: 0.0
+epoch:140, best metric:0.0
+epoch: 140, best avg metric: 0.0
+********************
+epoch:150, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 150, avg metric: 0.0
+epoch:150, best metric:0.0
+epoch: 150, best avg metric: 0.0
+********************
+epoch:160, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 160, avg metric: 0.0
+epoch:160, best metric:0.0
+epoch: 160, best avg metric: 0.0
+********************
+epoch:170, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 170, avg metric: 0.0
+epoch:170, best metric:0.0
+epoch: 170, best avg metric: 0.0
+********************
+epoch:180, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 180, avg metric: 0.0
+epoch:180, best metric:0.0
+epoch: 180, best avg metric: 0.0
+********************
+epoch:190, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 190, avg metric: 0.0
+epoch:190, best metric:0.0
+epoch: 190, best avg metric: 0.0
+********************
+epoch:200, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 200, avg metric: 0.0
+epoch:200, best metric:0.0
+epoch: 200, best avg metric: 0.0
+********************
+epoch:210, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 210, avg metric: 0.0
+epoch:210, best metric:0.0
+epoch: 210, best avg metric: 0.0
+********************
+epoch:220, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 220, avg metric: 0.0
+epoch:220, best metric:0.0
+epoch: 220, best avg metric: 0.0
+********************
+epoch:230, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 230, avg metric: 0.0
+epoch:230, best metric:0.0
+epoch: 230, best avg metric: 0.0
+********************
+epoch:240, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 240, avg metric: 0.0
+epoch:240, best metric:0.0
+epoch: 240, best avg metric: 0.0
+********************
+epoch:250, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 250, avg metric: 0.0
+epoch:250, best metric:0.0
+epoch: 250, best avg metric: 0.0
+********************
+epoch:260, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 260, avg metric: 0.0
+epoch:260, best metric:0.0
+epoch: 260, best avg metric: 0.0
+********************
+epoch:270, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 270, avg metric: 0.0
+epoch:270, best metric:0.0
+epoch: 270, best avg metric: 0.0
+********************
+epoch:280, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 280, avg metric: 0.0
+epoch:280, best metric:0.0
+epoch: 280, best avg metric: 0.0
+********************
+epoch:290, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 290, avg metric: 0.0
+epoch:290, best metric:0.0
+epoch: 290, best avg metric: 0.0
+********************
+epoch:300, metric:{'ASSD': -1.0, 'Dice': 0.0, 'FN': 19222.333333333332, 'FP': 0.0, 'HD95': -1.0, 'IoU': 0.0, 'TN': 9075177.666666666, 'TP': 0.0, 'n_pred': 0.0, 'n_ref': 19222.333333333332}
+epoch: 300, avg metric: 0.0
+epoch:300, best metric:0.0
+epoch: 300, best avg metric: 0.0
+********************

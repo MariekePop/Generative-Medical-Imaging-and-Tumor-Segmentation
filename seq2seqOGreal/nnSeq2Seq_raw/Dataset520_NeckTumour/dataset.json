@@ -1,0 +1,18 @@
+{
+    "channel_names": {
+        "0": "T1",
+        "1": "T1C",
+        "2": "T2",
+        "3": "STIR",
+        "4": "DWI",
+        "5": "ADC"
+    },
+    "labels": {
+        "background": 0,
+        "cancer": 1
+    },
+    "numChannel": 6,
+    "numTraining": 2,
+    "file_ending": ".nii.gz",
+    "overwrite_image_reader_writer": "SimpleITKIO"
+}

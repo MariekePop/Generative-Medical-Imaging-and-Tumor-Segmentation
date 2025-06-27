@@ -1,0 +1,7 @@
+
+#######################################################################
+Please cite the following paper when using nnSeq2Seq:
+[1] Han L, Tan T, Zhang T, et al. Synthesis-based imaging-differentiation representation learning for multi-sequence 3D/4D MRI[J]. Medical Image Analysis, 2024, 92: 103044.
+[2] Han L, Zhang T, Huang Y, et al. An Explainable Deep Framework: Towards Task-Specific Fusion for Multi-to-One MRI Synthesis[C]. International Conference on Medical Image Computing and Computer-Assisted Intervention. Cham: Springer Nature Switzerland, 2023: 45-55.
+#######################################################################
+ 

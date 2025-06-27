@@ -1,0 +1,318 @@
+{
+    "foreground_mean": {
+        "ASSD": 0.9609386342459085,
+        "Dice": 0.8358527448215709,
+        "FN": 1860.75,
+        "FP": 2874.8125,
+        "HD95": 4.25779016411984,
+        "IoU": 0.736927248749106,
+        "TN": 9073827.875,
+        "TP": 15836.5625,
+        "n_pred": 18711.375,
+        "n_ref": 17697.3125
+    },
+    "mean": {
+        "1": {
+            "ASSD": 0.9609386342459085,
+            "Dice": 0.8358527448215709,
+            "FN": 1860.75,
+            "FP": 2874.8125,
+            "HD95": 4.25779016411984,
+            "IoU": 0.736927248749106,
+            "TN": 9073827.875,
+            "TP": 15836.5625,
+            "n_pred": 18711.375,
+            "n_ref": 17697.3125
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.2416901636351261,
+                    "Dice": 0.9242762457501975,
+                    "FN": 1602,
+                    "FP": 603,
+                    "HD95": 1.2890625,
+                    "IoU": 0.8592133827097433,
+                    "TN": 9078738,
+                    "TP": 13457,
+                    "n_pred": 14060,
+                    "n_ref": 15059
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\000.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 2.481457547983153,
+                    "Dice": 0.6621378796511374,
+                    "FN": 109,
+                    "FP": 7600,
+                    "HD95": 9.994276316073679,
+                    "IoU": 0.4949223612658062,
+                    "TN": 9079137,
+                    "TP": 7554,
+                    "n_pred": 15154,
+                    "n_ref": 7663
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\001.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\001.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.27107517452441193,
+                    "Dice": 0.9261593982143276,
+                    "FN": 1582,
+                    "FP": 1569,
+                    "HD95": 1.3587911821036005,
+                    "IoU": 0.862473812849162,
+                    "TN": 9071488,
+                    "TP": 19761,
+                    "n_pred": 21330,
+                    "n_ref": 21343
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\002.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\002.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.5124765792152584,
+                    "Dice": 0.8937353171495693,
+                    "FN": 3660,
+                    "FP": 1768,
+                    "HD95": 2.578125,
+                    "IoU": 0.8078856091172931,
+                    "TN": 9066146,
+                    "TP": 22826,
+                    "n_pred": 24594,
+                    "n_ref": 26486
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\003.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\003.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.5165296620942881,
+                    "Dice": 0.8682640474226409,
+                    "FN": 3522,
+                    "FP": 3345,
+                    "HD95": 3.0383494504109465,
+                    "IoU": 0.7671966640675323,
+                    "TN": 9064903,
+                    "TP": 22630,
+                    "n_pred": 25975,
+                    "n_ref": 26152
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\004.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\004.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.2600905700809496,
+                    "Dice": 0.9095306144882929,
+                    "FN": 2560,
+                    "FP": 732,
+                    "HD95": 1.3587911821036005,
+                    "IoU": 0.8340725806451613,
+                    "TN": 9074560,
+                    "TP": 16548,
+                    "n_pred": 17280,
+                    "n_ref": 19108
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\005.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\005.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 1.1030541986585112,
+                    "Dice": 0.8660287378062772,
+                    "FN": 3463,
+                    "FP": 18140,
+                    "HD95": 5.15625,
+                    "IoU": 0.7637131263193586,
+                    "TN": 9002973,
+                    "TP": 69824,
+                    "n_pred": 87964,
+                    "n_ref": 73287
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\006.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 4.848504568801034,
+                    "Dice": 0.3563013209568011,
+                    "FN": 692,
+                    "FP": 2914,
+                    "HD95": 15.299039249548693,
+                    "IoU": 0.21676802780191137,
+                    "TN": 9089796,
+                    "TP": 998,
+                    "n_pred": 3912,
+                    "n_ref": 1690
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\007.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.1647960554342144,
+                    "Dice": 0.8895131086142322,
+                    "FN": 279,
+                    "FP": 311,
+                    "HD95": 0.859375,
+                    "IoU": 0.8010118043844857,
+                    "TN": 9091435,
+                    "TP": 2375,
+                    "n_pred": 2686,
+                    "n_ref": 2654
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\008.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\008.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.9679979221092531,
+                    "Dice": 0.8548979197526889,
+                    "FN": 1220,
+                    "FP": 1033,
+                    "HD95": 4.400000095367432,
+                    "IoU": 0.7465691788526434,
+                    "TN": 9085510,
+                    "TP": 6637,
+                    "n_pred": 7670,
+                    "n_ref": 7857
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\009.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\009.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 2.225085703153913,
+                    "Dice": 0.8215530903328051,
+                    "FN": 1620,
+                    "FP": 1195,
+                    "HD95": 13.200000286102295,
+                    "IoU": 0.6971490048413125,
+                    "TN": 9085105,
+                    "TP": 6480,
+                    "n_pred": 7675,
+                    "n_ref": 8100
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\010.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.3848527775083066,
+                    "Dice": 0.8522719734660034,
+                    "FN": 389,
+                    "FP": 1838,
+                    "HD95": 1.71875,
+                    "IoU": 0.7425731129349208,
+                    "TN": 9085749,
+                    "TP": 6424,
+                    "n_pred": 8262,
+                    "n_ref": 6813
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\011.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.39429002858295825,
+                    "Dice": 0.8395049254862339,
+                    "FN": 505,
+                    "FP": 2672,
+                    "HD95": 2.1484375,
+                    "IoU": 0.7234024029253003,
+                    "TN": 9082914,
+                    "TP": 8309,
+                    "n_pred": 10981,
+                    "n_ref": 8814
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\012.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.45171054055943577,
+                    "Dice": 0.8731675710698955,
+                    "FN": 2758,
+                    "FP": 374,
+                    "HD95": 2.717582364207201,
+                    "IoU": 0.7748867965212392,
+                    "TN": 9080487,
+                    "TP": 10781,
+                    "n_pred": 11155,
+                    "n_ref": 13539
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\013.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.4106293203918534,
+                    "Dice": 0.8954767206649782,
+                    "FN": 4648,
+                    "FP": 1501,
+                    "HD95": 2.1484375,
+                    "IoU": 0.8107359413955493,
+                    "TN": 9061911,
+                    "TP": 26340,
+                    "n_pred": 27841,
+                    "n_ref": 30988
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\014.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.14077733520187072,
+                    "Dice": 0.9408250463190532,
+                    "FN": 1163,
+                    "FP": 402,
+                    "HD95": 0.859375,
+                    "IoU": 0.8882621733542767,
+                    "TN": 9080394,
+                    "TP": 12441,
+                    "n_pred": 12843,
+                    "n_ref": 13604
+                }
+            },
+            "prediction_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only\\predictions\\015.nii.gz",
+            "reference_file": "C:\\Users\\P095789\\OneDrive - Amsterdam UMC\\Documenten\\nnUNet_results\\fold_0_only_extra_data\\predictions\\015.nii.gz"
+        }
+    ]
+}

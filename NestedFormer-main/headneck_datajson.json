@@ -1,0 +1,866 @@
+{
+    "name": "HeadNeckTumor",
+    "description": "Auto-generated from preprocessed dataset",
+    "training": [
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/044_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/044_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/044_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/044_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/044_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/044_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/044.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/031_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/031_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/031_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/031_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/031_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/031_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/031.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/058_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/058_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/058_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/058_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/058_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/058_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/058.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/009_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/009_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/009_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/009_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/009_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/009_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/009.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/005_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/005_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/005_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/005_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/005_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/005_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/005.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/035_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/035_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/035_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/035_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/035_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/035_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/035.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/039_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/039_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/039_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/039_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/039_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/039_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/039.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/067_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/067_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/067_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/067_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/067_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/067_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/067.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/053_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/053_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/053_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/053_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/053_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/053_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/053.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/040_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/040_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/040_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/040_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/040_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/040_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/040.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/016_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/016_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/016_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/016_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/016_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/016_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/016.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/042_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/042_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/042_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/042_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/042_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/042_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/042.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/047_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/047_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/047_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/047_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/047_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/047_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/047.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/050_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/050_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/050_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/050_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/050_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/050_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/050.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/007_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/007_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/007_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/007_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/007_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/007_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/007.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/028_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/028_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/028_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/028_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/028_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/028_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/028.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/074_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/074_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/074_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/074_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/074_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/074_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/074.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/045_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/045_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/045_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/045_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/045_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/045_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/045.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/069_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/069_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/069_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/069_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/069_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/069_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/069.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/019_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/019_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/019_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/019_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/019_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/019_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/019.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/065_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/065_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/065_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/065_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/065_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/065_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/065.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/025_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/025_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/025_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/025_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/025_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/025_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/025.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/055_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/055_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/055_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/055_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/055_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/055_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/055.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/013_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/013_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/013_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/013_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/013_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/013_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/013.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/056_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/056_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/056_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/056_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/056_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/056_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/056.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/003_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/003_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/003_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/003_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/003_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/003_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/003.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/017_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/017_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/017_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/017_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/017_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/017_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/017.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/038_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/038_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/038_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/038_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/038_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/038_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/038.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/008_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/008_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/008_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/008_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/008_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/008_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/008.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/062_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/062_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/062_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/062_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/062_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/062_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/062.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/006_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/006_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/006_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/006_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/006_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/006_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/006.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/036_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/036_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/036_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/036_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/036_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/036_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/036.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/075_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/075_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/075_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/075_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/075_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/075_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/075.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/064_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/064_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/064_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/064_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/064_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/064_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/064.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/046_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/046_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/046_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/046_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/046_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/046_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/046.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/076_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/076_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/076_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/076_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/076_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/076_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/076.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/015_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/015_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/015_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/015_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/015_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/015_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/015.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/027_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/027_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/027_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/027_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/027_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/027_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/027.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/041_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/041_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/041_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/041_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/041_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/041_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/041.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/026_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/026_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/026_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/026_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/026_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/026_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/026.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/048_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/048_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/048_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/048_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/048_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/048_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/048.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/024_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/024_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/024_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/024_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/024_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/024_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/024.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/043_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/043_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/043_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/043_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/043_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/043_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/043.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/070_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/070_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/070_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/070_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/070_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/070_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/070.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/057_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/057_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/057_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/057_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/057_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/057_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/057.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/011_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/011_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/011_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/011_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/011_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/011_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/011.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/032_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/032_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/032_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/032_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/032_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/032_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/032.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/073_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/073_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/073_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/073_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/073_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/073_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/073.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/059_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/059_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/059_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/059_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/059_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/059_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/059.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/063_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/063_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/063_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/063_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/063_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/063_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/063.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/068_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/068_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/068_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/068_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/068_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/068_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/068.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/037_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/037_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/037_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/037_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/037_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/037_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/037.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/029_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/029_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/029_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/029_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/029_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/029_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/029.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/001_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/001_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/001_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/001_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/001_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/001_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/001.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/052_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/052_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/052_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/052_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/052_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/052_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/052.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/021_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/021_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/021_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/021_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/021_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/021_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/021.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/002_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/002_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/002_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/002_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/002_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/002_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/002.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/023_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/023_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/023_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/023_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/023_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/023_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/023.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/020_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/020_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/020_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/020_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/020_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/020_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/020.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/060_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/060_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/060_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/060_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/060_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/060_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/060.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/071_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/071_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/071_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/071_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/071_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/071_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/071.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/014_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/014_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/014_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/014_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/014_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/014_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/014.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/051_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/051_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/051_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/051_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/051_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/051_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/051.nii.gz"
+        }
+    ],
+    "validation": [
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/033_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/033_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/033_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/033_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/033_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/033_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/033.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/000_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/000_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/000_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/000_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/000_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/000_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/000.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/034_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/034_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/034_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/034_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/034_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/034_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/034.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/012_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/012_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/012_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/012_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/012_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/012_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/012.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/010_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/010_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/010_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/010_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/010_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/010_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/010.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/077_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/077_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/077_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/077_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/077_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/077_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/077.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/030_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/030_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/030_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/030_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/030_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/030_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/030.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/004_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/004_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/004_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/004_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/004_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/004_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/004.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/049_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/049_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/049_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/049_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/049_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/049_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/049.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/066_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/066_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/066_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/066_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/066_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/066_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/066.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/061_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/061_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/061_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/061_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/061_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/061_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/061.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/022_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/022_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/022_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/022_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/022_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/022_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/022.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/072_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/072_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/072_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/072_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/072_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/072_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/072.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/054_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/054_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/054_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/054_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/054_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/054_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/054.nii.gz"
+        },
+        {
+            "image": [
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/018_0000.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/018_0001.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/018_0002.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/018_0003.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/018_0004.nii.gz",
+                "C:/Users/P095789/OneDrive - Amsterdam UMC/Documenten/NestedFormer-main/NestedFormer_preprocessed/018_0005.nii.gz"
+            ],
+            "label": "C:/Users/P095789/Downloads/seq2seqOG/nnSeq2Seq_raw/Dataset520_NeckTumour/labelsTr/018.nii.gz"
+        }
+    ]
+}

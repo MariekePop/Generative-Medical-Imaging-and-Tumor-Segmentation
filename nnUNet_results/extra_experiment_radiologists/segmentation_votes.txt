@@ -1,0 +1,79 @@
+000 Guess: Red Prediction
+Green R-GT1
+Blue S-GT2
+Red Prediction
+
+001 Guess: Blue R-GT1
+Green Prediction
+Blue R-GT1
+Red S-GT2
+
+002 Guess: Blue R-GT1
+Green S-GT2
+Blue R-GT1
+Red Prediction
+
+003 Guess: Red S-GT2
+Green R-GT1
+Blue Prediction
+Red S-GT2
+
+004 Guess: Red Prediction
+Green S-GT2
+Blue R-GT1
+Red Prediction
+
+005 Guess: Red S-GT2
+Green R-GT1
+Blue Prediction
+Red S-GT2
+
+006 Guess: Blue Prediction
+Green R-GT1
+Blue Prediction
+Red S-GT2
+
+007 Guess: Blue R-GT1
+Green S-GT2
+Blue R-GT1
+Red Prediction
+
+008 Guess: Green Prediction
+Green Prediction
+Blue S-GT2
+Red R-GT1
+
+009 Guess: Blue R-GT1
+Green S-GT2
+Blue R-GT1
+Red Prediction
+
+010 Guess: Blue R-GT1
+Green Prediction
+Blue R-GT1
+Red S-GT2
+
+011 Guess: Red R-GT1
+Green S-GT2
+Blue Prediction
+Red R-GT1
+
+012 Guess: Blue Prediction
+Green R-GT1
+Blue Prediction
+Red S-GT2
+
+013 Guess: Blue R-GT1
+Green Prediction
+Blue R-GT1
+Red S-GT2
+
+014 Guess: Green S-GT2
+Green S-GT2
+Blue R-GT1
+Red Prediction
+
+015 Guess: Blue S-GT2
+Green R-GT1
+Blue S-GT2
+Red Prediction

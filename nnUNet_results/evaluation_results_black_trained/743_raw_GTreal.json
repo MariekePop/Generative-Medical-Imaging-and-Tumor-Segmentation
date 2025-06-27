@@ -1,0 +1,318 @@
+{
+    "foreground_mean": {
+        "ASSD": 50.75040381364114,
+        "Dice": 0.35068569031582897,
+        "FN": 12358.5,
+        "FP": 14595.5625,
+        "HD95": 159.0295526921849,
+        "IoU": 0.23750670084647152,
+        "TN": 9060306.8125,
+        "TP": 7139.125,
+        "n_pred": 21734.6875,
+        "n_ref": 19497.625
+    },
+    "mean": {
+        "1": {
+            "ASSD": 50.75040381364114,
+            "Dice": 0.35068569031582897,
+            "FN": 12358.5,
+            "FP": 14595.5625,
+            "HD95": 159.0295526921849,
+            "IoU": 0.23750670084647152,
+            "TN": 9060306.8125,
+            "TP": 7139.125,
+            "n_pred": 21734.6875,
+            "n_ref": 19497.625
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 85.77838587539684,
+                    "Dice": 0.4132104954749658,
+                    "FN": 3035,
+                    "FP": 33015,
+                    "HD95": 198.80266596616838,
+                    "IoU": 0.26040662248938307,
+                    "TN": 9045657,
+                    "TP": 12693,
+                    "n_pred": 45708,
+                    "n_ref": 15728
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/000.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 1.2496373208310307,
+                    "Dice": 0.619324796274738,
+                    "FN": 7197,
+                    "FP": 978,
+                    "HD95": 7.0,
+                    "IoU": 0.448566610455312,
+                    "TN": 9079575,
+                    "TP": 6650,
+                    "n_pred": 7628,
+                    "n_ref": 13847
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/001.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/001.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 58.303462024877135,
+                    "Dice": 0.5061823405674414,
+                    "FN": 6919,
+                    "FP": 21956,
+                    "HD95": 182.71945708709532,
+                    "IoU": 0.33885149058936664,
+                    "TN": 9050726,
+                    "TP": 14799,
+                    "n_pred": 36755,
+                    "n_ref": 21718
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/002.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/002.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 28.26419338549493,
+                    "Dice": 0.7350427350427351,
+                    "FN": 5314,
+                    "FP": 10806,
+                    "HD95": 206.58787468372017,
+                    "IoU": 0.581081081081081,
+                    "TN": 9055920,
+                    "TP": 22360,
+                    "n_pred": 33166,
+                    "n_ref": 27674
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/003.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/003.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 61.028104876631936,
+                    "Dice": 0.06770007633139569,
+                    "FN": 18244,
+                    "FP": 13512,
+                    "HD95": 170.47947063516324,
+                    "IoU": 0.0350360083867635,
+                    "TN": 9061491,
+                    "TP": 1153,
+                    "n_pred": 14665,
+                    "n_ref": 19397
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/004.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/004.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 13.694792606769706,
+                    "Dice": 0.4845311100392751,
+                    "FN": 10431,
+                    "FP": 4531,
+                    "HD95": 191.7472292326558,
+                    "IoU": 0.31972356097117394,
+                    "TN": 9072406,
+                    "TP": 7032,
+                    "n_pred": 11563,
+                    "n_ref": 17463
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/005.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/005.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 31.97902814350094,
+                    "Dice": 0.07822571834371245,
+                    "FN": 87479,
+                    "FP": 13765,
+                    "HD95": 145.89036979869508,
+                    "IoU": 0.040704945992040935,
+                    "TN": 8988860,
+                    "TP": 4296,
+                    "n_pred": 18061,
+                    "n_ref": 91775
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/006.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 111.70905833039573,
+                    "Dice": 0.16887679927462315,
+                    "FN": 2595,
+                    "FP": 4738,
+                    "HD95": 281.9217974459299,
+                    "IoU": 0.09222579846496658,
+                    "TN": 9086322,
+                    "TP": 745,
+                    "n_pred": 5483,
+                    "n_ref": 3340
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/007.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 74.84841509825026,
+                    "Dice": 0.21203155818540434,
+                    "FN": 3636,
+                    "FP": 4354,
+                    "HD95": 214.4277267368742,
+                    "IoU": 0.11858797573083288,
+                    "TN": 9085335,
+                    "TP": 1075,
+                    "n_pred": 5429,
+                    "n_ref": 4711
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/008.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/008.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 16.748538824815892,
+                    "Dice": 0.03865230032495297,
+                    "FN": 10156,
+                    "FP": 1086,
+                    "HD95": 139.2819078572316,
+                    "IoU": 0.0197070108126962,
+                    "TN": 9082932,
+                    "TP": 226,
+                    "n_pred": 1312,
+                    "n_ref": 10382
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/009.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/009.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 129.9581761481206,
+                    "Dice": 0.0,
+                    "FN": 5978,
+                    "FP": 19704,
+                    "HD95": 189.74944004405265,
+                    "IoU": 0.0,
+                    "TN": 9068718,
+                    "TP": 0,
+                    "n_pred": 19704,
+                    "n_ref": 5978
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/010.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 29.250425108842126,
+                    "Dice": 0.4467767433690497,
+                    "FN": 5026,
+                    "FP": 7572,
+                    "HD95": 214.13512036084907,
+                    "IoU": 0.28764489680520217,
+                    "TN": 9076715,
+                    "TP": 5087,
+                    "n_pred": 12659,
+                    "n_ref": 10113
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/011.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 14.365566359075526,
+                    "Dice": 0.6681672025723473,
+                    "FN": 795,
+                    "FP": 7461,
+                    "HD95": 45.93473631142341,
+                    "IoU": 0.5016900048285853,
+                    "TN": 9077832,
+                    "TP": 8312,
+                    "n_pred": 15773,
+                    "n_ref": 9107
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/012.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 8.732701393859044,
+                    "Dice": 0.577569080729637,
+                    "FN": 374,
+                    "FP": 8982,
+                    "HD95": 17.05872210923198,
+                    "IoU": 0.40604367699339766,
+                    "TN": 9078648,
+                    "TP": 6396,
+                    "n_pred": 15378,
+                    "n_ref": 6770
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/013.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 41.22010524457483,
+                    "Dice": 0.32390955348153794,
+                    "FN": 24370,
+                    "FP": 25324,
+                    "HD95": 147.54270566547893,
+                    "IoU": 0.1932530276957044,
+                    "TN": 9032802,
+                    "TP": 11904,
+                    "n_pred": 37228,
+                    "n_ref": 36274
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/014.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 104.87587027682171,
+                    "Dice": 0.2707705350414469,
+                    "FN": 6187,
+                    "FP": 55745,
+                    "HD95": 191.19361914038868,
+                    "IoU": 0.156584502247038,
+                    "TN": 9020970,
+                    "TP": 11498,
+                    "n_pred": 67243,
+                    "n_ref": 17685
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/743/015.nii.gz",
+            "reference_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs/015.nii.gz"
+        }
+    ]
+}

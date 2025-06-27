@@ -1,0 +1,41 @@
+Gen:
+2 T1
+5 STIR
+6 DWI
+9 T1C
+10 T2
+13 ADC
+14 T1
+16 T2
+19 ADC
+
+Real:
+3 T1C
+4 T2
+7 ADC
+8 T1
+11 STIR
+12 DWI
+15 T1C
+17 STIR
+18 DWI
+
+guesses:
+2 gen
+3 real
+4 real
+5 gen
+6 gen
+7 real
+8 real
+9 gen
+10 gen
+11 gen
+12 real
+13 gen
+14 gen
+15 real
+16 real
+17 gen
+18 real
+19 gen

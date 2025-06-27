@@ -1,0 +1,1362 @@
+{
+    "foreground_mean": {
+        "ASSD": -1.0,
+        "Dice": 0.0,
+        "FN": 160937.37837837837,
+        "FP": 0.0,
+        "HD95": -1.0,
+        "IoU": 0.0,
+        "TN": 26623062.62162162,
+        "TP": 0.0,
+        "n_pred": 0.0,
+        "n_ref": 160937.37837837837
+    },
+    "mean": {
+        "1": {
+            "ASSD": -1.0,
+            "Dice": 0.0,
+            "FN": 160937.37837837837,
+            "FP": 0.0,
+            "HD95": -1.0,
+            "IoU": 0.0,
+            "TN": 26623062.62162162,
+            "TP": 0.0,
+            "n_pred": 0.0,
+            "n_ref": 160937.37837837837
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 335727.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26448273.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 335727.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\000.nii.gz",
+            "reference_file": "labelsTs\\000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 160988.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26623012.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 160988.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\001.nii.gz",
+            "reference_file": "labelsTs\\001.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 181302.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26602698.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 181302.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\002.nii.gz",
+            "reference_file": "labelsTs\\002.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 255602.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26528398.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 255602.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\003.nii.gz",
+            "reference_file": "labelsTs\\003.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 115544.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26668456.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 115544.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\004.nii.gz",
+            "reference_file": "labelsTs\\004.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 164153.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26619847.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 164153.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\005.nii.gz",
+            "reference_file": "labelsTs\\005.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 69837.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26714163.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 69837.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\006.nii.gz",
+            "reference_file": "labelsTs\\006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 195622.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26588378.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 195622.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\007.nii.gz",
+            "reference_file": "labelsTs\\007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 188660.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26595340.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 188660.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\008.nii.gz",
+            "reference_file": "labelsTs\\008.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 56132.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26727868.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 56132.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\009.nii.gz",
+            "reference_file": "labelsTs\\009.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 121494.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26662506.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 121494.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\010.nii.gz",
+            "reference_file": "labelsTs\\010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 248052.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26535948.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 248052.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\011.nii.gz",
+            "reference_file": "labelsTs\\011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 153348.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26630652.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 153348.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\012.nii.gz",
+            "reference_file": "labelsTs\\012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 114492.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26669508.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 114492.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\013.nii.gz",
+            "reference_file": "labelsTs\\013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 329402.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26454598.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 329402.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\014.nii.gz",
+            "reference_file": "labelsTs\\014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 112198.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26671802.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 112198.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\015.nii.gz",
+            "reference_file": "labelsTs\\015.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 282906.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26501094.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 282906.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\016.nii.gz",
+            "reference_file": "labelsTs\\016.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 98989.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26685011.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 98989.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\017.nii.gz",
+            "reference_file": "labelsTs\\017.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 374802.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26409198.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 374802.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\018.nii.gz",
+            "reference_file": "labelsTs\\018.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 46371.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26737629.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 46371.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\019.nii.gz",
+            "reference_file": "labelsTs\\019.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 58049.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26725951.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 58049.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\020.nii.gz",
+            "reference_file": "labelsTs\\020.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 251900.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26532100.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 251900.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\021.nii.gz",
+            "reference_file": "labelsTs\\021.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 70908.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26713092.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 70908.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\022.nii.gz",
+            "reference_file": "labelsTs\\022.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 377165.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26406835.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 377165.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\023.nii.gz",
+            "reference_file": "labelsTs\\023.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 121447.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26662553.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 121447.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\024.nii.gz",
+            "reference_file": "labelsTs\\024.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 257759.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26526241.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 257759.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\025.nii.gz",
+            "reference_file": "labelsTs\\025.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 330900.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26453100.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 330900.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\026.nii.gz",
+            "reference_file": "labelsTs\\026.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 22092.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26761908.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 22092.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\027.nii.gz",
+            "reference_file": "labelsTs\\027.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 319129.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26464871.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 319129.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\028.nii.gz",
+            "reference_file": "labelsTs\\028.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 89640.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26694360.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 89640.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\029.nii.gz",
+            "reference_file": "labelsTs\\029.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 239207.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26544793.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 239207.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\030.nii.gz",
+            "reference_file": "labelsTs\\030.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 150702.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26633298.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 150702.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\031.nii.gz",
+            "reference_file": "labelsTs\\031.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 47759.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26736241.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 47759.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\032.nii.gz",
+            "reference_file": "labelsTs\\032.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 98838.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26685162.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 98838.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\033.nii.gz",
+            "reference_file": "labelsTs\\033.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 196277.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26587723.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 196277.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\034.nii.gz",
+            "reference_file": "labelsTs\\034.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 124502.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26659498.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 124502.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\035.nii.gz",
+            "reference_file": "labelsTs\\035.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 211036.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26572964.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 211036.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\036.nii.gz",
+            "reference_file": "labelsTs\\036.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 69587.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26714413.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 69587.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\037.nii.gz",
+            "reference_file": "labelsTs\\037.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 197048.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26586952.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 197048.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\038.nii.gz",
+            "reference_file": "labelsTs\\038.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 156432.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26627568.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 156432.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\039.nii.gz",
+            "reference_file": "labelsTs\\039.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 303146.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26480854.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 303146.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\040.nii.gz",
+            "reference_file": "labelsTs\\040.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 127996.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26656004.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 127996.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\041.nii.gz",
+            "reference_file": "labelsTs\\041.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 138444.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26645556.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 138444.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\042.nii.gz",
+            "reference_file": "labelsTs\\042.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 273418.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26510582.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 273418.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\043.nii.gz",
+            "reference_file": "labelsTs\\043.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 21420.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26762580.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 21420.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\044.nii.gz",
+            "reference_file": "labelsTs\\044.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 188918.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26595082.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 188918.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\045.nii.gz",
+            "reference_file": "labelsTs\\045.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 203658.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26580342.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 203658.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\046.nii.gz",
+            "reference_file": "labelsTs\\046.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 111507.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26672493.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 111507.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\047.nii.gz",
+            "reference_file": "labelsTs\\047.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 208951.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26575049.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 208951.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\048.nii.gz",
+            "reference_file": "labelsTs\\048.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 39219.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26744781.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 39219.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\049.nii.gz",
+            "reference_file": "labelsTs\\049.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 118108.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26665892.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 118108.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\050.nii.gz",
+            "reference_file": "labelsTs\\050.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 174831.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26609169.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 174831.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\051.nii.gz",
+            "reference_file": "labelsTs\\051.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 44848.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26739152.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 44848.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\052.nii.gz",
+            "reference_file": "labelsTs\\052.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 234519.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26549481.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 234519.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\053.nii.gz",
+            "reference_file": "labelsTs\\053.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 199096.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26584904.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 199096.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\054.nii.gz",
+            "reference_file": "labelsTs\\054.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 27314.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26756686.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 27314.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\055.nii.gz",
+            "reference_file": "labelsTs\\055.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 24159.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26759841.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 24159.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\056.nii.gz",
+            "reference_file": "labelsTs\\056.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 145394.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26638606.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 145394.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\057.nii.gz",
+            "reference_file": "labelsTs\\057.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 37251.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26746749.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 37251.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\058.nii.gz",
+            "reference_file": "labelsTs\\058.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 50906.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26733094.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 50906.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\059.nii.gz",
+            "reference_file": "labelsTs\\059.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 100349.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26683651.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 100349.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\060.nii.gz",
+            "reference_file": "labelsTs\\060.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 143821.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26640179.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 143821.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\061.nii.gz",
+            "reference_file": "labelsTs\\061.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 12364.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26771636.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 12364.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\062.nii.gz",
+            "reference_file": "labelsTs\\062.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 226929.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26557071.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 226929.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\063.nii.gz",
+            "reference_file": "labelsTs\\063.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 134664.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26649336.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 134664.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\064.nii.gz",
+            "reference_file": "labelsTs\\064.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 137736.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26646264.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 137736.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\065.nii.gz",
+            "reference_file": "labelsTs\\065.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 158634.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26625366.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 158634.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\066.nii.gz",
+            "reference_file": "labelsTs\\066.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 219084.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26564916.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 219084.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\067.nii.gz",
+            "reference_file": "labelsTs\\067.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 274531.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26509469.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 274531.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\068.nii.gz",
+            "reference_file": "labelsTs\\068.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 91383.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26692617.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 91383.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\069.nii.gz",
+            "reference_file": "labelsTs\\069.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 155695.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26628305.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 155695.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\070.nii.gz",
+            "reference_file": "labelsTs\\070.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 216338.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26567662.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 216338.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\071.nii.gz",
+            "reference_file": "labelsTs\\071.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 269357.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26514643.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 269357.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\072.nii.gz",
+            "reference_file": "labelsTs\\072.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": -1.0,
+                    "Dice": 0.0,
+                    "FN": 99380.0,
+                    "FP": 0.0,
+                    "HD95": -1.0,
+                    "IoU": 0.0,
+                    "TN": 26684620.0,
+                    "TP": 0.0,
+                    "n_pred": 0.0,
+                    "n_ref": 99380.0
+                }
+            },
+            "prediction_file": "./runs/log_test_nestedformer\\predictions\\073.nii.gz",
+            "reference_file": "labelsTs\\073.nii.gz"
+        }
+    ]
+}

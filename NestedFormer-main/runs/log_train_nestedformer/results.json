@@ -1,0 +1,300 @@
+{
+    "foreground_mean": {
+        "ASSD": 83.71629505712248,
+        "Dice": 0.0043323087120095615,
+        "FN": 15160.933333333332,
+        "FP": 1822296.2,
+        "HD95": 139.13267475769234,
+        "IoU": 0.0021742976340558503,
+        "TN": 7252881.466666667,
+        "TP": 4061.4,
+        "n_pred": 1826357.6,
+        "n_ref": 19222.333333333332
+    },
+    "mean": {
+        "1": {
+            "ASSD": 83.71629505712248,
+            "Dice": 0.0043323087120095615,
+            "FN": 15160.933333333332,
+            "FP": 1822296.2,
+            "HD95": 139.13267475769234,
+            "IoU": 0.0021742976340558503,
+            "TN": 7252881.466666667,
+            "TP": 4061.4,
+            "n_pred": 1826357.6,
+            "n_ref": 19222.333333333332
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 88.02201821058856,
+                    "Dice": 0.0007459638029945078,
+                    "FN": 4003.0,
+                    "FP": 1852610.0,
+                    "HD95": 136.74561891194438,
+                    "IoU": 0.00037312106890302204,
+                    "TN": 7237094.0,
+                    "TP": 693.0,
+                    "n_pred": 1853303.0,
+                    "n_ref": 4696.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\000.nii.gz",
+            "reference_file": "labelsTs\\000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 92.80528316924881,
+                    "Dice": 0.0003433284406234691,
+                    "FN": 1460.0,
+                    "FP": 1786301.0,
+                    "HD95": 147.02886168307836,
+                    "IoU": 0.00017169369397584337,
+                    "TN": 7306332.0,
+                    "TP": 307.0,
+                    "n_pred": 1786608.0,
+                    "n_ref": 1767.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\001.nii.gz",
+            "reference_file": "labelsTs\\001.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 84.09152996226098,
+                    "Dice": 0.0031776668479210277,
+                    "FN": 12570.0,
+                    "FP": 1818789.0,
+                    "HD95": 140.4853148201432,
+                    "IoU": 0.0015913618328301294,
+                    "TN": 7260122.0,
+                    "TP": 2919.0,
+                    "n_pred": 1821708.0,
+                    "n_ref": 15489.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\002.nii.gz",
+            "reference_file": "labelsTs\\002.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 79.80241576729476,
+                    "Dice": 0.011117927552131134,
+                    "FN": 29999.0,
+                    "FP": 1834996.0,
+                    "HD95": 138.65359188782668,
+                    "IoU": 0.005590038598139432,
+                    "TN": 7218921.0,
+                    "TP": 10484.0,
+                    "n_pred": 1845480.0,
+                    "n_ref": 40483.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\003.nii.gz",
+            "reference_file": "labelsTs\\003.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 85.6251720598183,
+                    "Dice": 0.0015383142584565936,
+                    "FN": 5214.0,
+                    "FP": 1809564.0,
+                    "HD95": 136.1545109982528,
+                    "IoU": 0.0007697491873034289,
+                    "TN": 7278224.0,
+                    "TP": 1398.0,
+                    "n_pred": 1810962.0,
+                    "n_ref": 6612.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\004.nii.gz",
+            "reference_file": "labelsTs\\004.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 88.39047677926986,
+                    "Dice": 0.0009701647906272307,
+                    "FN": 3718.0,
+                    "FP": 1886908.0,
+                    "HD95": 144.32735248910262,
+                    "IoU": 0.000485317814441533,
+                    "TN": 7202856.0,
+                    "TP": 918.0,
+                    "n_pred": 1887826.0,
+                    "n_ref": 4636.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\005.nii.gz",
+            "reference_file": "labelsTs\\005.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 80.64671694320442,
+                    "Dice": 0.004163505476183367,
+                    "FN": 13310.0,
+                    "FP": 1759987.0,
+                    "HD95": 134.85119138305203,
+                    "IoU": 0.0020860954730546354,
+                    "TN": 7317396.0,
+                    "TP": 3707.0,
+                    "n_pred": 1763694.0,
+                    "n_ref": 17017.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\006.nii.gz",
+            "reference_file": "labelsTs\\006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 86.36063605355211,
+                    "Dice": 0.002132851842970182,
+                    "FN": 9531.0,
+                    "FP": 1758964.0,
+                    "HD95": 141.34920606872598,
+                    "IoU": 0.0010675643998339283,
+                    "TN": 7324015.0,
+                    "TP": 1890.0,
+                    "n_pred": 1760854.0,
+                    "n_ref": 11421.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\007.nii.gz",
+            "reference_file": "labelsTs\\007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 86.87410635214881,
+                    "Dice": 0.001545224280866839,
+                    "FN": 4814.0,
+                    "FP": 1805713.0,
+                    "HD95": 142.98618433310608,
+                    "IoU": 0.0007732095315045589,
+                    "TN": 7282472.0,
+                    "TP": 1401.0,
+                    "n_pred": 1807114.0,
+                    "n_ref": 6215.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\008.nii.gz",
+            "reference_file": "labelsTs\\008.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 75.67936555982844,
+                    "Dice": 0.008746174927701885,
+                    "FN": 31195.0,
+                    "FP": 1855391.0,
+                    "HD95": 128.22585636357957,
+                    "IoU": 0.004392295355608082,
+                    "TN": 7199491.0,
+                    "TP": 8323.0,
+                    "n_pred": 1863714.0,
+                    "n_ref": 39518.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\009.nii.gz",
+            "reference_file": "labelsTs\\009.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 77.55957139013061,
+                    "Dice": 0.01036068619260258,
+                    "FN": 28285.0,
+                    "FP": 1825542.0,
+                    "HD95": 136.3293945029221,
+                    "IoU": 0.005207318794267414,
+                    "TN": 7230869.0,
+                    "TP": 9704.0,
+                    "n_pred": 1835246.0,
+                    "n_ref": 37989.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\010.nii.gz",
+            "reference_file": "labelsTs\\010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 84.21383554050463,
+                    "Dice": 0.0061541267071887305,
+                    "FN": 16483.0,
+                    "FP": 1923689.0,
+                    "HD95": 144.82990771882737,
+                    "IoU": 0.00308656089701922,
+                    "TN": 7148221.0,
+                    "TP": 6007.0,
+                    "n_pred": 1929696.0,
+                    "n_ref": 22490.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\011.nii.gz",
+            "reference_file": "labelsTs\\011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 80.7695564964634,
+                    "Dice": 0.009271244403923786,
+                    "FN": 43694.0,
+                    "FP": 1872099.0,
+                    "HD95": 151.26940814976032,
+                    "IoU": 0.004657211273942609,
+                    "TN": 7169643.0,
+                    "TP": 8964.0,
+                    "n_pred": 1881063.0,
+                    "n_ref": 52658.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\012.nii.gz",
+            "reference_file": "labelsTs\\012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 86.48701158384341,
+                    "Dice": 0.0006788866259334653,
+                    "FN": 3634.0,
+                    "FP": 1789262.0,
+                    "HD95": 134.81470506077056,
+                    "IoU": 0.00033955857385398793,
+                    "TN": 7300895.0,
+                    "TP": 609.0,
+                    "n_pred": 1789871.0,
+                    "n_ref": 4243.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\013.nii.gz",
+            "reference_file": "labelsTs\\013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 78.41672998867996,
+                    "Dice": 0.004038564530018626,
+                    "FN": 19504.0,
+                    "FP": 1754628.0,
+                    "HD95": 128.93901699429304,
+                    "IoU": 0.002023368016159932,
+                    "TN": 7316671.0,
+                    "TP": 3597.0,
+                    "n_pred": 1758225.0,
+                    "n_ref": 23101.0
+                }
+            },
+            "prediction_file": "./runs/log_train_nestedformer\\predictions\\014.nii.gz",
+            "reference_file": "labelsTs\\014.nii.gz"
+        }
+    ]
+}
