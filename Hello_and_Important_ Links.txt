@@ -1,0 +1,11 @@
+Hi,
+I'm Fien and this is my master thesis :)
+
+Nice things to know:
+1. I've put all the code and files in the research map: \\vumc.nl\Onderzoek\s4e-gpfs2\rath-research-01\Research\Fien
+2. And the files code should be on my github as well, please note that datasets are not included here for privacy reasons: https://github.com/MariekePop/Generative-Medical-Imaging-and-Tumor-Segmentation
+3. For an extensive explanation on how to use the code etc. I refer to the READ ME on the GitHub page. 
+4. As for my actual thesis here is the link to my Overleaf file: "https://www.overleaf.com/read/txhzdzhsykbv#dd1881". I've also included a PDF version on GitHub.
+5. If you have any questions, please email me on my personal emailadress: fien@dekok.net
+
+Have fun and good luck!
