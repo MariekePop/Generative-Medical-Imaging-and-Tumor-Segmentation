@@ -1,0 +1,471 @@
+{
+  "dataset_name": "Dataset520_NeckTumour",
+  "plans_name": "nnUNetPlans",
+  "original_median_spacing_after_transp": [
+    4.400000095367432,
+    0.4296875,
+    0.4296875
+  ],
+  "original_median_shape_after_transp": [
+    29,
+    521,
+    560
+  ],
+  "image_reader_writer": "SimpleITKIO",
+  "transpose_forward": [
+    0,
+    1,
+    2
+  ],
+  "transpose_backward": [
+    0,
+    1,
+    2
+  ],
+  "configurations": {
+    "2d": {
+      "data_identifier": "nnUNetPlans_2d",
+      "preprocessor_name": "DefaultPreprocessor",
+      "batch_size": 8,
+      "patch_size": [
+        640,
+        640
+      ],
+      "median_image_size_in_voxels": [
+        521.0,
+        560.0
+      ],
+      "spacing": [
+        0.4296875,
+        0.4296875
+      ],
+      "normalization_schemes": [
+        "ZScoreNormalization",
+        "ZScoreNormalization",
+        "ZScoreNormalization",
+        "ZScoreNormalization",
+        "ZScoreNormalization",
+        "ZScoreNormalization"
+      ],
+      "use_mask_for_norm": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "resampling_fn_data": "resample_data_or_seg_to_shape",
+      "resampling_fn_seg": "resample_data_or_seg_to_shape",
+      "resampling_fn_data_kwargs": {
+        "is_seg": false,
+        "order": 3,
+        "order_z": 0,
+        "force_separate_z": null
+      },
+      "resampling_fn_seg_kwargs": {
+        "is_seg": true,
+        "order": 1,
+        "order_z": 0,
+        "force_separate_z": null
+      },
+      "resampling_fn_probabilities": "resample_data_or_seg_to_shape",
+      "resampling_fn_probabilities_kwargs": {
+        "is_seg": false,
+        "order": 1,
+        "order_z": 0,
+        "force_separate_z": null
+      },
+      "architecture": {
+        "network_class_name": "dynamic_network_architectures.architectures.unet.PlainConvUNet",
+        "arch_kwargs": {
+          "n_stages": 8,
+          "features_per_stage": [
+            32,
+            64,
+            128,
+            256,
+            512,
+            512,
+            512,
+            512
+          ],
+          "conv_op": "torch.nn.modules.conv.Conv2d",
+          "kernel_sizes": [
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              3
+            ],
+            [
+              3,
+              3
+            ]
+          ],
+          "strides": [
+            [
+              1,
+              1
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ],
+            [
+              2,
+              2
+            ]
+          ],
+          "n_conv_per_stage": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "n_conv_per_stage_decoder": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "conv_bias": true,
+          "norm_op": "torch.nn.modules.instancenorm.InstanceNorm2d",
+          "norm_op_kwargs": {
+            "eps": 0.00001,
+            "affine": true
+          },
+          "dropout_op": null,
+          "dropout_op_kwargs": null,
+          "nonlin": "torch.nn.LeakyReLU",
+          "nonlin_kwargs": {
+            "inplace": true
+          }
+        },
+        "_kw_requires_import": [
+          "conv_op",
+          "norm_op",
+          "dropout_op",
+          "nonlin"
+        ]
+      },
+      "batch_dice": true
+    },
+    "3d_fullres": {
+      "data_identifier": "nnUNetPlans_3d_fullres",
+      "preprocessor_name": "DefaultPreprocessor",
+      "batch_size": 2,
+      "patch_size": [
+        16,
+        320,
+        320
+      ],
+      "median_image_size_in_voxels": [
+        29.0,
+        521.0,
+        560.0
+      ],
+      "spacing": [
+        4.400000095367432,
+        0.4296875,
+        0.4296875
+      ],
+      "normalization_schemes": [
+        "ZScoreNormalization",
+        "ZScoreNormalization",
+        "ZScoreNormalization",
+        "ZScoreNormalization",
+        "ZScoreNormalization",
+        "ZScoreNormalization"
+      ],
+      "use_mask_for_norm": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "resampling_fn_data": "resample_data_or_seg_to_shape",
+      "resampling_fn_seg": "resample_data_or_seg_to_shape",
+      "resampling_fn_data_kwargs": {
+        "is_seg": false,
+        "order": 3,
+        "order_z": 0,
+        "force_separate_z": null
+      },
+      "resampling_fn_seg_kwargs": {
+        "is_seg": true,
+        "order": 1,
+        "order_z": 0,
+        "force_separate_z": null
+      },
+      "resampling_fn_probabilities": "resample_data_or_seg_to_shape",
+      "resampling_fn_probabilities_kwargs": {
+        "is_seg": false,
+        "order": 1,
+        "order_z": 0,
+        "force_separate_z": null
+      },
+      "architecture": {
+        "network_class_name": "dynamic_network_architectures.architectures.unet.PlainConvUNet",
+        "arch_kwargs": {
+          "n_stages": 7,
+          "features_per_stage": [
+            32,
+            64,
+            128,
+            256,
+            320,
+            320,
+            320
+          ],
+          "conv_op": "torch.nn.modules.conv.Conv3d",
+          "kernel_sizes": [
+            [
+              1,
+              3,
+              3
+            ],
+            [
+              1,
+              3,
+              3
+            ],
+            [
+              1,
+              3,
+              3
+            ],
+            [
+              3,
+              3,
+              3
+            ],
+            [
+              3,
+              3,
+              3
+            ],
+            [
+              3,
+              3,
+              3
+            ],
+            [
+              3,
+              3,
+              3
+            ]
+          ],
+          "strides": [
+            [
+              1,
+              1,
+              1
+            ],
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              1,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              2
+            ],
+            [
+              2,
+              2,
+              2
+            ],
+            [
+              1,
+              2,
+              2
+            ]
+          ],
+          "n_conv_per_stage": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "n_conv_per_stage_decoder": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ],
+          "conv_bias": true,
+          "norm_op": "torch.nn.modules.instancenorm.InstanceNorm3d",
+          "norm_op_kwargs": {
+            "eps": 0.00001,
+            "affine": true
+          },
+          "dropout_op": null,
+          "dropout_op_kwargs": null,
+          "nonlin": "torch.nn.LeakyReLU",
+          "nonlin_kwargs": {
+            "inplace": true
+          }
+        },
+        "_kw_requires_import": [
+          "conv_op",
+          "norm_op",
+          "dropout_op",
+          "nonlin"
+        ]
+      },
+      "batch_dice": false
+    }
+  },
+  "experiment_planner_used": "ExperimentPlanner",
+  "label_manager": "LabelManager",
+  "foreground_intensity_properties_per_channel": {
+    "0": {
+      "max": 877.055419921875,
+      "mean": 105.18428802490234,
+      "median": 99.0,
+      "min": 4.0,
+      "percentile_00_5": 50.0,
+      "percentile_99_5": 538.07080078125,
+      "std": 51.62640380859375
+    },
+    "1": {
+      "max": 1496.849365234375,
+      "mean": 293.0503234863281,
+      "median": 285.0,
+      "min": 0.0,
+      "percentile_00_5": 106.0,
+      "percentile_99_5": 992.8849487304688,
+      "std": 102.57643127441406
+    },
+    "2": {
+      "max": 1193.1431884765625,
+      "mean": 91.38609313964844,
+      "median": 81.17990112304688,
+      "min": 0.3250216841697693,
+      "percentile_00_5": 18.39603614807129,
+      "percentile_99_5": 778.589599609375,
+      "std": 80.37003326416016
+    },
+    "3": {
+      "max": 709.135009765625,
+      "mean": 249.99417114257812,
+      "median": 252.59104919433594,
+      "min": 0.18024106323719025,
+      "percentile_00_5": 49.78506088256836,
+      "percentile_99_5": 438.50341796875,
+      "std": 66.26053619384766
+    },
+    "4": {
+      "max": 1877.02587890625,
+      "mean": 110.42361450195312,
+      "median": 38.046051025390625,
+      "min": 4.0235748291015625,
+      "percentile_00_5": 8.580612182617188,
+      "percentile_99_5": 690.7913208007812,
+      "std": 144.51866149902344
+    },
+    "5": {
+      "max": 4095.0,
+      "mean": 1535.79443359375,
+      "median": 1510.547119140625,
+      "min": 0.0,
+      "percentile_00_5": 8.739675649849232E-13,
+      "percentile_99_5": 3630.7978515625,
+      "std": 736.5648803710938
+    }
+  },
+  "data_augmentation": {
+    "simulate_missing_modalities": {
+      "p": 0.20,
+      "choose": "one",
+      "modalities": [
+        [
+          0
+        ],
+        [
+          1
+        ],
+        [
+          2
+        ],
+        [
+          3
+        ],
+        [
+          4
+        ],
+        [
+          5
+        ]
+      ]
+    }
+  }
+}

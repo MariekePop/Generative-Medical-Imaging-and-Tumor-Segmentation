@@ -1,0 +1,318 @@
+{
+    "foreground_mean": {
+        "ASSD": 6.253523576308233,
+        "Dice": 0.5752834891688783,
+        "FN": 8103.5,
+        "FP": 3674.75,
+        "HD95": 14.253706612473838,
+        "IoU": 0.43483583704802176,
+        "TN": 9071227.625,
+        "TP": 11394.125,
+        "n_pred": 15068.875,
+        "n_ref": 19497.625
+    },
+    "mean": {
+        "1": {
+            "ASSD": 6.253523576308233,
+            "Dice": 0.5752834891688783,
+            "FN": 8103.5,
+            "FP": 3674.75,
+            "HD95": 14.253706612473838,
+            "IoU": 0.43483583704802176,
+            "TN": 9071227.625,
+            "TP": 11394.125,
+            "n_pred": 15068.875,
+            "n_ref": 19497.625
+        }
+    },
+    "metric_per_case": [
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.3966187584204636,
+                    "Dice": 0.8091340884179758,
+                    "FN": 4655,
+                    "FP": 569,
+                    "HD95": 2.23606797749979,
+                    "IoU": 0.6794502055593054,
+                    "TN": 9078103,
+                    "TP": 11073,
+                    "n_pred": 11642,
+                    "n_ref": 15728
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/000.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/000.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 1.4835764317568372,
+                    "Dice": 0.6011772652706745,
+                    "FN": 7617,
+                    "FP": 649,
+                    "HD95": 8.06225774829855,
+                    "IoU": 0.4297737306843267,
+                    "TN": 9079904,
+                    "TP": 6230,
+                    "n_pred": 6879,
+                    "n_ref": 13847
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/001.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/001.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.6754420167518984,
+                    "Dice": 0.8082315286480638,
+                    "FN": 3789,
+                    "FP": 4719,
+                    "HD95": 2.449489742783178,
+                    "IoU": 0.6781783107009116,
+                    "TN": 9067963,
+                    "TP": 17929,
+                    "n_pred": 22648,
+                    "n_ref": 21718
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/002.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/002.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.31730613278344005,
+                    "Dice": 0.8287628601764727,
+                    "FN": 5038,
+                    "FP": 4316,
+                    "HD95": 2.0,
+                    "IoU": 0.707596123788684,
+                    "TN": 9062410,
+                    "TP": 22636,
+                    "n_pred": 26952,
+                    "n_ref": 27674
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/003.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/003.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.7558326190366261,
+                    "Dice": 0.6523642732049036,
+                    "FN": 5242,
+                    "FP": 9844,
+                    "HD95": 4.0,
+                    "IoU": 0.48408057179987,
+                    "TN": 9065159,
+                    "TP": 14155,
+                    "n_pred": 23999,
+                    "n_ref": 19397
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/004.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/004.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.3780239800962089,
+                    "Dice": 0.7368112543962485,
+                    "FN": 4893,
+                    "FP": 4087,
+                    "HD95": 2.0,
+                    "IoU": 0.5832946635730858,
+                    "TN": 9072850,
+                    "TP": 12570,
+                    "n_pred": 16657,
+                    "n_ref": 17463
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/005.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/005.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 1.225844609963289,
+                    "Dice": 0.6566133238253039,
+                    "FN": 44815,
+                    "FP": 4302,
+                    "HD95": 7.0710678118654755,
+                    "IoU": 0.4887746286832437,
+                    "TN": 8998323,
+                    "TP": 46960,
+                    "n_pred": 51262,
+                    "n_ref": 91775
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/006.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/006.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 69.8805163523306,
+                    "Dice": 0.0,
+                    "FN": 3340,
+                    "FP": 144,
+                    "HD95": 84.26119973000685,
+                    "IoU": 0.0,
+                    "TN": 9090916,
+                    "TP": 0,
+                    "n_pred": 144,
+                    "n_ref": 3340
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/007.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/007.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 3.5324852886913165,
+                    "Dice": 0.5300654589739686,
+                    "FN": 2970,
+                    "FP": 117,
+                    "HD95": 23.194827009486403,
+                    "IoU": 0.36060480530240263,
+                    "TN": 9089572,
+                    "TP": 1741,
+                    "n_pred": 1858,
+                    "n_ref": 4711
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/008.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/008.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 8.502705663351588,
+                    "Dice": 0.19733378619342787,
+                    "FN": 9220,
+                    "FP": 233,
+                    "HD95": 26.351466179020314,
+                    "IoU": 0.10946773433820066,
+                    "TN": 9083785,
+                    "TP": 1162,
+                    "n_pred": 1395,
+                    "n_ref": 10382
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/009.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/009.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 2.1358106796358127,
+                    "Dice": 0.4670109007458405,
+                    "FN": 2722,
+                    "FP": 4710,
+                    "HD95": 10.198039027185569,
+                    "IoU": 0.3046407185628742,
+                    "TN": 9083712,
+                    "TP": 3256,
+                    "n_pred": 7966,
+                    "n_ref": 5978
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/010.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/010.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 3.15361375647515,
+                    "Dice": 0.49047687240441074,
+                    "FN": 6688,
+                    "FP": 428,
+                    "HD95": 17.578395831246947,
+                    "IoU": 0.32492173418081777,
+                    "TN": 9083859,
+                    "TP": 3425,
+                    "n_pred": 3853,
+                    "n_ref": 10113
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/011.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/011.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 1.5090018603447384,
+                    "Dice": 0.581213171577123,
+                    "FN": 4915,
+                    "FP": 1126,
+                    "HD95": 9.0,
+                    "IoU": 0.40965503762337535,
+                    "TN": 9084167,
+                    "TP": 4192,
+                    "n_pred": 5318,
+                    "n_ref": 9107
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/012.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/012.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 4.80174822155263,
+                    "Dice": 0.42219111846290874,
+                    "FN": 134,
+                    "FP": 18030,
+                    "HD95": 22.825424421026653,
+                    "IoU": 0.2675806451612903,
+                    "TN": 9069600,
+                    "TP": 6636,
+                    "n_pred": 24666,
+                    "n_ref": 6770
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/013.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/013.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 1.0287466592181678,
+                    "Dice": 0.596902114967462,
+                    "FN": 18663,
+                    "FP": 5123,
+                    "HD95": 5.0990195135927845,
+                    "IoU": 0.42541730077058726,
+                    "TN": 9053003,
+                    "TP": 17611,
+                    "n_pred": 22734,
+                    "n_ref": 36274
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/014.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/014.nii.gz"
+        },
+        {
+            "metrics": {
+                "1": {
+                    "ASSD": 0.2791041905229465,
+                    "Dice": 0.8262478094372687,
+                    "FN": 4955,
+                    "FP": 399,
+                    "HD95": 1.7320508075688772,
+                    "IoU": 0.7039371820393718,
+                    "TN": 9076316,
+                    "TP": 12730,
+                    "n_pred": 13129,
+                    "n_ref": 17685
+                }
+            },
+            "prediction_file": "/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_combos/541_post/015.nii.gz",
+            "reference_file": "/scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_allGen/labelsTr/015.nii.gz"
+        }
+    ]
+}

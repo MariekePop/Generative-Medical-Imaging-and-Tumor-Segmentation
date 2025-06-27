@@ -1,0 +1,113 @@
+“CUDA_VISIBLE_DEVICES=0”
+/scratch/rth/jdekok/nnunetv2/nnUNet/nnunetv2/training/nnUNetTrainer/nnUNetTrainer.py:164: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  self.grad_scaler = GradScaler() if self.device.type == 'cuda' else None
+
+############################
+INFO: You are using the old nnU-Net default plans. We have updated our recommendations. Please consider using those instead! Read more here: https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/resenc_presets.md
+############################
+
+Using device: cuda:0
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+2025-01-21 21:42:42.045950: do_dummy_2d_data_aug: True
+2025-01-21 21:42:42.046587: Using splits from existing split file: /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed/Dataset520_NeckTumour/splits_final.json
+2025-01-21 21:42:42.054507: The split file contains 5 splits.
+2025-01-21 21:42:42.054560: Desired fold for training: 0
+2025-01-21 21:42:42.054597: This split has 60 training and 15 validation cases.
+using pin_memory on device 0
+/home/rth/jdekok/.conda/envs/nnunet_env/lib/python3.10/site-packages/torch/optim/lr_scheduler.py:62: UserWarning: The verbose parameter is deprecated. Please use get_last_lr() to access the learning rate.
+  warnings.warn(
+using pin_memory on device 0
+2025-01-21 21:43:18.279846: Using torch.compile...
+
+This is the configuration used by this training:
+Configuration name: 3d_fullres
+ {'data_identifier': 'nnUNetPlans_3d_fullres', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 2, 'patch_size': [16, 320, 320], 'median_image_size_in_voxels': [29.0, 521.0, 560.0], 'spacing': [4.400000095367432, 0.4296875, 0.4296875], 'normalization_schemes': ['ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization'], 'use_mask_for_norm': [False, False, False, False, False, False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 7, 'features_per_stage': [32, 64, 128, 256, 320, 320, 320], 'conv_op': 'torch.nn.modules.conv.Conv3d', 'kernel_sizes': [[1, 3, 3], [1, 3, 3], [1, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]], 'strides': [[1, 1, 1], [1, 2, 2], [1, 2, 2], [1, 2, 2], [2, 2, 2], [2, 2, 2], [1, 2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm3d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': False} 
+
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset520_NeckTumour', 'plans_name': 'nnUNetPlans', 'original_median_spacing_after_transp': [4.400000095367432, 0.4296875, 0.4296875], 'original_median_shape_after_transp': [29, 521, 560], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 877.055419921875, 'mean': 105.21720123291016, 'median': 99.0, 'min': 4.0, 'percentile_00_5': 50.0, 'percentile_99_5': 543.4515380859375, 'std': 52.506717681884766}, '1': {'max': 1496.849365234375, 'mean': 291.9319763183594, 'median': 284.0, 'min': 0.0, 'percentile_00_5': 105.00010681152344, 'percentile_99_5': 1000.4067993164062, 'std': 103.72818756103516}, '2': {'max': 1193.1431884765625, 'mean': 91.43666076660156, 'median': 80.78479766845703, 'min': 0.3250216841697693, 'percentile_00_5': 18.61648941040039, 'percentile_99_5': 783.7203369140625, 'std': 81.82173156738281}, '3': {'max': 709.135009765625, 'mean': 249.1918487548828, 'median': 251.87704467773438, 'min': 0.18024106323719025, 'percentile_00_5': 48.9383659362793, 'percentile_99_5': 438.969482421875, 'std': 66.45547485351562}, '4': {'max': 1877.02587890625, 'mean': 113.97364807128906, 'median': 39.548431396484375, 'min': 4.0235748291015625, 'percentile_00_5': 8.546875, 'percentile_99_5': 695.1929321289062, 'std': 146.2356414794922}, '5': {'max': 4095.0, 'mean': 1522.91748046875, 'median': 1497.51123046875, 'min': 0.0, 'percentile_00_5': 0.22064208984375, 'percentile_99_5': 3582.515869140625, 'std': 724.96484375}}} 
+
+2025-01-21 21:43:21.395621: unpacking dataset...
+2025-01-21 21:43:36.409148: unpacking done...
+2025-01-21 21:43:36.410864: Unable to plot network architecture: nnUNet_compile is enabled!
+2025-01-21 21:43:36.420597: 
+2025-01-21 21:43:36.420768: Epoch 0
+2025-01-21 21:43:36.420922: Current learning rate: 0.01
+2025-01-21 21:48:00.454746: train_loss -0.2485
+2025-01-21 21:48:00.497423: val_loss -0.3983
+2025-01-21 21:48:00.497665: Pseudo dice [0.4929]
+2025-01-21 21:48:00.497767: Epoch time: 264.04 s
+2025-01-21 21:48:00.497846: Yayy! New best EMA pseudo Dice: 0.4929
+2025-01-21 21:48:02.906890: 
+2025-01-21 21:48:02.907104: Epoch 1
+2025-01-21 21:48:02.907249: Current learning rate: 0.00818
+2025-01-21 21:50:48.253361: train_loss -0.4403
+2025-01-21 21:50:48.260222: val_loss -0.4632
+2025-01-21 21:50:48.260479: Pseudo dice [0.5728]
+2025-01-21 21:50:48.260585: Epoch time: 165.35 s
+2025-01-21 21:50:48.260657: Yayy! New best EMA pseudo Dice: 0.5009
+2025-01-21 21:50:51.054986: 
+2025-01-21 21:50:51.055202: Epoch 2
+2025-01-21 21:50:51.055311: Current learning rate: 0.00631
+2025-01-21 21:54:02.910392: train_loss -0.467
+2025-01-21 21:54:02.958385: val_loss -0.4589
+2025-01-21 21:54:02.958632: Pseudo dice [0.5893]
+2025-01-21 21:54:02.958739: Epoch time: 191.86 s
+2025-01-21 21:54:02.958814: Yayy! New best EMA pseudo Dice: 0.5097
+2025-01-21 21:54:06.576440: 
+2025-01-21 21:54:06.576873: Epoch 3
+2025-01-21 21:54:06.577000: Current learning rate: 0.00438
+2025-01-21 21:57:18.856923: train_loss -0.4797
+2025-01-21 21:57:18.857983: val_loss -0.5083
+2025-01-21 21:57:18.858077: Pseudo dice [0.6326]
+2025-01-21 21:57:18.858166: Epoch time: 192.28 s
+2025-01-21 21:57:18.858234: Yayy! New best EMA pseudo Dice: 0.522
+2025-01-21 21:57:22.102730: 
+2025-01-21 21:57:22.103485: Epoch 4
+2025-01-21 21:57:22.103669: Current learning rate: 0.00235
+2025-01-21 22:00:28.819972: train_loss -0.5209
+2025-01-21 22:00:28.858354: val_loss -0.5036
+2025-01-21 22:00:28.858580: Pseudo dice [0.6318]
+2025-01-21 22:00:28.858675: Epoch time: 186.72 s
+2025-01-21 22:00:28.858745: Yayy! New best EMA pseudo Dice: 0.533
+2025-01-21 22:00:33.505923: Training done.
+2025-01-21 22:00:33.732985: Using splits from existing split file: /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed/Dataset520_NeckTumour/splits_final.json
+2025-01-21 22:00:33.743121: The split file contains 5 splits.
+2025-01-21 22:00:33.743273: Desired fold for training: 0
+2025-01-21 22:00:33.743324: This split has 60 training and 15 validation cases.
+2025-01-21 22:00:33.743598: predicting 002
+2025-01-21 22:00:33.744730: 002, shape torch.Size([6, 29, 515, 560]), rank 0
+2025-01-21 22:01:11.273107: predicting 004
+2025-01-21 22:01:11.290145: 004, shape torch.Size([6, 29, 511, 560]), rank 0
+2025-01-21 22:01:17.000069: predicting 013
+2025-01-21 22:01:17.015941: 013, shape torch.Size([6, 29, 510, 560]), rank 0
+2025-01-21 22:01:22.576376: predicting 021
+2025-01-21 22:01:22.590580: 021, shape torch.Size([6, 29, 515, 560]), rank 0
+2025-01-21 22:01:28.190392: predicting 025
+2025-01-21 22:01:28.207504: 025, shape torch.Size([6, 29, 507, 559]), rank 0
+2025-01-21 22:01:33.689056: predicting 026
+2025-01-21 22:01:33.705159: 026, shape torch.Size([6, 29, 516, 560]), rank 0
+2025-01-21 22:01:38.990449: predicting 028
+2025-01-21 22:01:39.005666: 028, shape torch.Size([6, 29, 537, 559]), rank 0
+2025-01-21 22:01:44.293485: predicting 030
+2025-01-21 22:01:44.310626: 030, shape torch.Size([6, 29, 509, 558]), rank 0
+2025-01-21 22:01:49.292602: predicting 032
+2025-01-21 22:01:49.307581: 032, shape torch.Size([6, 29, 531, 559]), rank 0
+2025-01-21 22:01:54.583448: predicting 042
+2025-01-21 22:01:54.598236: 042, shape torch.Size([6, 29, 524, 560]), rank 0
+2025-01-21 22:01:59.730603: predicting 045
+2025-01-21 22:01:59.748355: 045, shape torch.Size([6, 29, 520, 560]), rank 0
+2025-01-21 22:02:04.635094: predicting 048
+2025-01-21 22:02:04.651540: 048, shape torch.Size([6, 29, 518, 560]), rank 0
+2025-01-21 22:02:09.571983: predicting 051
+2025-01-21 22:02:09.587630: 051, shape torch.Size([6, 29, 550, 560]), rank 0
+2025-01-21 22:02:14.751931: predicting 054
+2025-01-21 22:02:14.770423: 054, shape torch.Size([6, 29, 532, 560]), rank 0
+2025-01-21 22:02:19.866675: predicting 058
+2025-01-21 22:02:19.883152: 058, shape torch.Size([6, 29, 521, 558]), rank 0
+2025-01-21 22:02:38.770300: Validation complete
+2025-01-21 22:02:38.770404: Mean Validation Dice:  0.5039763033220123

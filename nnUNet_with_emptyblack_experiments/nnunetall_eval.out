@@ -1,0 +1,13 @@
+Which wrapper am I using? /home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin/nnUNetv2_evaluate_folder
+Traceback (most recent call last):
+  File "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/scratch/rth/jdekok/nnunetv2/nnUNet/nnunetv2/evaluation/evaluate_predictions.py", line 279, in <module>
+    compute_metrics_on_folder(folder_ref, folder_pred, output_file, image_reader_writer, file_ending, regions, ignore_label,
+  File "/scratch/rth/jdekok/nnunetv2/nnUNet/nnunetv2/evaluation/evaluate_predictions.py", line 151, in compute_metrics_on_folder
+    files_pred = subfiles(folder_pred, suffix=file_ending, join=False)
+  File "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/lib/python3.10/site-packages/batchgenerators/utilities/file_and_folder_operations.py", line 69, in subfiles
+    with os.scandir(folder) as entries:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/fabian/results/nnUNet_remake/Dataset004_Hippocampus/nnUNetModule__nnUNetPlans__3d_fullres/fold_0/validation'

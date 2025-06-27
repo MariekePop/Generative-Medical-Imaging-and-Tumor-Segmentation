@@ -1,0 +1,28 @@
+
+EnvironmentNameNotFound: Could not find conda environment: nestedformer
+You can list all discoverable environments with `conda info --envs`.
+
+
+Relinking labelsTr → labelsTsreal ...
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset541_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset542_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset543_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset544_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset545_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset546_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset547_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset548_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset551_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset552_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset553_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset554_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset555_* missing
+  ! /scratch/rth/jdekok/nnunetv2/nnUNet/nnUNet_raw/Dataset556_* missing
+Done relinking.
+──────── evaluating mix 541  (raw) ────────
+Traceback (most recent call last):
+  File "/home/rth/jdekok/.local/bin/nnUNetv2_evaluate_folder", line 5, in <module>
+    from nnunetv2.evaluation.evaluate_predictions import evaluate_folder_entry_point
+  File "/scratch/rth/jdekok/nnunetv2/nnUNet/nnunetv2/evaluation/evaluate_predictions.py", line 20, in <module>
+    from medpy.metric.binary import hd95, assd
+ModuleNotFoundError: No module named 'medpy'

@@ -1,0 +1,119 @@
+────────  predicting Dataset541_allGen  ────────
+/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/lib/python3.10/site-packages/nnunetv2/inference/predict_from_raw_data.py:84: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(join(model_training_output_dir, f'fold_{f}', checkpoint_name),
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+There are 16 cases in the source folder
+I am process 0 out of 1 (max process ID is 0, we start counting with 0!)
+There are 16 cases that I would like to predict
+
+Predicting 000:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:01<00:55,  1.58s/it] 22%|██▏       | 8/36 [00:01<00:04,  6.27it/s] 33%|███▎      | 12/36 [00:01<00:02,  9.43it/s] 44%|████▍     | 16/36 [00:01<00:01, 12.70it/s] 56%|█████▌    | 20/36 [00:02<00:01, 15.86it/s] 67%|██████▋   | 24/36 [00:02<00:00, 18.75it/s] 78%|███████▊  | 28/36 [00:02<00:00, 21.25it/s] 86%|████████▌ | 31/36 [00:02<00:00, 22.87it/s] 94%|█████████▍| 34/36 [00:02<00:00, 24.36it/s]100%|██████████| 36/36 [00:02<00:00, 13.56it/s]
+sending off prediction to background worker for resampling and export
+done with 000
+
+Predicting 001:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s] 19%|█▉        | 7/36 [00:00<00:00, 51.41it/s] 36%|███▌      | 13/36 [00:00<00:00, 34.98it/s] 47%|████▋     | 17/36 [00:00<00:00, 32.87it/s] 58%|█████▊    | 21/36 [00:00<00:00, 31.67it/s] 69%|██████▉   | 25/36 [00:00<00:00, 30.94it/s] 81%|████████  | 29/36 [00:00<00:00, 30.46it/s] 92%|█████████▏| 33/36 [00:01<00:00, 30.15it/s]100%|██████████| 36/36 [00:01<00:00, 31.42it/s]
+sending off prediction to background worker for resampling and export
+done with 001
+
+Predicting 002:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 22%|██▏       | 6/27 [00:00<00:00, 56.08it/s] 44%|████▍     | 12/27 [00:00<00:00, 39.18it/s] 63%|██████▎   | 17/27 [00:00<00:00, 34.73it/s] 78%|███████▊  | 21/27 [00:00<00:00, 32.49it/s] 93%|█████████▎| 25/27 [00:00<00:00, 31.69it/s]100%|██████████| 27/27 [00:00<00:00, 32.32it/s]
+sending off prediction to background worker for resampling and export
+done with 002
+
+Predicting 003:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 26%|██▌       | 7/27 [00:00<00:00, 51.39it/s] 48%|████▊     | 13/27 [00:00<00:00, 34.96it/s] 63%|██████▎   | 17/27 [00:00<00:00, 32.86it/s] 78%|███████▊  | 21/27 [00:00<00:00, 31.66it/s] 93%|█████████▎| 25/27 [00:00<00:00, 30.93it/s]100%|██████████| 27/27 [00:00<00:00, 32.62it/s]
+sending off prediction to background worker for resampling and export
+done with 003
+
+Predicting 004:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s] 19%|█▉        | 7/36 [00:00<00:00, 51.90it/s] 36%|███▌      | 13/36 [00:00<00:00, 35.06it/s] 47%|████▋     | 17/36 [00:00<00:00, 32.90it/s] 58%|█████▊    | 21/36 [00:00<00:00, 31.68it/s] 69%|██████▉   | 25/36 [00:00<00:00, 30.95it/s] 81%|████████  | 29/36 [00:00<00:00, 30.47it/s] 92%|█████████▏| 33/36 [00:01<00:00, 30.17it/s]100%|██████████| 36/36 [00:01<00:00, 31.81it/s]
+sending off prediction to background worker for resampling and export
+done with 004
+
+Predicting 005:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 22%|██▏       | 6/27 [00:00<00:00, 58.27it/s] 44%|████▍     | 12/27 [00:00<00:00, 39.35it/s] 63%|██████▎   | 17/27 [00:00<00:00, 34.56it/s] 78%|███████▊  | 21/27 [00:00<00:00, 32.24it/s] 93%|█████████▎| 25/27 [00:00<00:00, 31.80it/s]100%|██████████| 27/27 [00:00<00:00, 33.53it/s]
+sending off prediction to background worker for resampling and export
+done with 005
+
+Predicting 006:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s] 19%|█▉        | 7/36 [00:00<00:00, 53.94it/s] 36%|███▌      | 13/36 [00:00<00:00, 37.14it/s] 47%|████▋     | 17/36 [00:00<00:00, 34.13it/s] 58%|█████▊    | 21/36 [00:00<00:00, 32.45it/s] 69%|██████▉   | 25/36 [00:00<00:00, 31.43it/s] 81%|████████  | 29/36 [00:00<00:00, 30.79it/s] 92%|█████████▏| 33/36 [00:01<00:00, 30.36it/s]100%|██████████| 36/36 [00:01<00:00, 32.36it/s]
+sending off prediction to background worker for resampling and export
+done with 006
+
+Predicting 007:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s] 19%|█▉        | 7/36 [00:00<00:00, 54.64it/s] 36%|███▌      | 13/36 [00:00<00:00, 37.17it/s] 47%|████▋     | 17/36 [00:00<00:00, 34.03it/s] 58%|█████▊    | 21/36 [00:00<00:00, 32.42it/s] 69%|██████▉   | 25/36 [00:00<00:00, 31.44it/s] 81%|████████  | 29/36 [00:00<00:00, 30.80it/s] 92%|█████████▏| 33/36 [00:01<00:00, 30.38it/s]100%|██████████| 36/36 [00:01<00:00, 32.37it/s]
+sending off prediction to background worker for resampling and export
+done with 007
+
+Predicting 008:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:00<00:08,  4.24it/s] 19%|█▉        | 7/36 [00:00<00:01, 24.51it/s] 31%|███       | 11/36 [00:00<00:00, 26.62it/s] 42%|████▏     | 15/36 [00:00<00:00, 28.37it/s] 53%|█████▎    | 19/36 [00:00<00:00, 28.77it/s] 64%|██████▍   | 23/36 [00:00<00:00, 29.00it/s] 75%|███████▌  | 27/36 [00:01<00:00, 29.14it/s] 86%|████████▌ | 31/36 [00:01<00:00, 29.24it/s] 94%|█████████▍| 34/36 [00:01<00:00, 29.29it/s]100%|██████████| 36/36 [00:01<00:00, 27.30it/s]
+sending off prediction to background worker for resampling and export
+done with 008
+
+Predicting 009:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s] 19%|█▉        | 7/36 [00:00<00:00, 51.38it/s] 36%|███▌      | 13/36 [00:00<00:00, 36.21it/s] 47%|████▋     | 17/36 [00:00<00:00, 33.58it/s] 58%|█████▊    | 21/36 [00:00<00:00, 32.10it/s] 69%|██████▉   | 25/36 [00:00<00:00, 31.21it/s] 81%|████████  | 29/36 [00:00<00:00, 30.64it/s] 92%|█████████▏| 33/36 [00:01<00:00, 30.28it/s]100%|██████████| 36/36 [00:01<00:00, 32.08it/s]
+sending off prediction to background worker for resampling and export
+done with 009
+
+Predicting 010:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s] 14%|█▍        | 5/36 [00:00<00:00, 46.39it/s] 28%|██▊       | 10/36 [00:00<00:00, 39.59it/s] 42%|████▏     | 15/36 [00:00<00:00, 34.23it/s] 53%|█████▎    | 19/36 [00:00<00:00, 31.39it/s] 64%|██████▍   | 23/36 [00:00<00:00, 31.68it/s] 75%|███████▌  | 27/36 [00:00<00:00, 30.94it/s] 86%|████████▌ | 31/36 [00:00<00:00, 30.49it/s] 97%|█████████▋| 35/36 [00:01<00:00, 30.17it/s]100%|██████████| 36/36 [00:01<00:00, 31.88it/s]
+sending off prediction to background worker for resampling and export
+done with 010
+
+Predicting 011:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 26%|██▌       | 7/27 [00:00<00:00, 58.72it/s] 48%|████▊     | 13/27 [00:00<00:00, 37.98it/s] 67%|██████▋   | 18/27 [00:00<00:00, 33.94it/s] 81%|████████▏ | 22/27 [00:00<00:00, 32.57it/s] 96%|█████████▋| 26/27 [00:00<00:00, 31.25it/s]100%|██████████| 27/27 [00:00<00:00, 33.84it/s]
+sending off prediction to background worker for resampling and export
+done with 011
+
+Predicting 012:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s] 19%|█▉        | 7/36 [00:00<00:00, 51.06it/s] 36%|███▌      | 13/36 [00:00<00:00, 34.73it/s] 47%|████▋     | 17/36 [00:00<00:00, 32.89it/s] 58%|█████▊    | 21/36 [00:00<00:00, 31.39it/s] 69%|██████▉   | 25/36 [00:00<00:00, 30.85it/s] 81%|████████  | 29/36 [00:00<00:00, 30.15it/s] 92%|█████████▏| 33/36 [00:01<00:00, 30.10it/s]100%|██████████| 36/36 [00:01<00:00, 31.81it/s]
+sending off prediction to background worker for resampling and export
+done with 012
+
+Predicting 013:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s] 19%|█▉        | 7/36 [00:00<00:00, 51.18it/s] 36%|███▌      | 13/36 [00:00<00:00, 36.05it/s] 47%|████▋     | 17/36 [00:00<00:00, 33.48it/s] 58%|█████▊    | 21/36 [00:00<00:00, 29.70it/s] 69%|██████▉   | 25/36 [00:00<00:00, 31.90it/s] 81%|████████  | 29/36 [00:00<00:00, 31.10it/s] 92%|█████████▏| 33/36 [00:01<00:00, 30.58it/s]100%|██████████| 36/36 [00:01<00:00, 32.04it/s]
+sending off prediction to background worker for resampling and export
+done with 013
+
+Predicting 014:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s] 19%|█▉        | 7/36 [00:00<00:00, 58.72it/s] 36%|███▌      | 13/36 [00:00<00:00, 38.00it/s] 50%|█████     | 18/36 [00:00<00:00, 34.09it/s] 61%|██████    | 22/36 [00:00<00:00, 32.50it/s] 72%|███████▏  | 26/36 [00:00<00:00, 31.47it/s] 83%|████████▎ | 30/36 [00:00<00:00, 30.88it/s] 94%|█████████▍| 34/36 [00:01<00:00, 30.45it/s]100%|██████████| 36/36 [00:01<00:00, 32.64it/s]
+sending off prediction to background worker for resampling and export
+done with 014
+
+Predicting 015:
+perform_everything_on_device: True
+  0%|          | 0/36 [00:00<?, ?it/s] 19%|█▉        | 7/36 [00:00<00:00, 51.54it/s] 36%|███▌      | 13/36 [00:00<00:00, 36.44it/s] 47%|████▋     | 17/36 [00:00<00:00, 33.70it/s] 58%|█████▊    | 21/36 [00:00<00:00, 32.18it/s] 69%|██████▉   | 25/36 [00:00<00:00, 31.27it/s] 81%|████████  | 29/36 [00:00<00:00, 30.69it/s] 92%|█████████▏| 33/36 [00:01<00:00, 30.30it/s]100%|██████████| 36/36 [00:01<00:00, 32.14it/s]
+sending off prediction to background worker for resampling and export
+done with 015
+────────  evaluating (raw) Dataset541_allGen  ────────
+Traceback (most recent call last):
+  File "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin/nnUNetv2_evaluate_folder", line 8, in <module>
+    sys.exit(evaluate_folder_entry_point())
+  File "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/lib/python3.10/site-packages/nnunetv2/evaluation/evaluate_predictions.py", line 248, in evaluate_folder_entry_point
+    compute_metrics_on_folder2(args.gt_folder, args.pred_folder, args.djfile, args.pfile, args.o, args.np, chill=args.chill)
+  File "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/lib/python3.10/site-packages/nnunetv2/evaluation/evaluate_predictions.py", line 204, in compute_metrics_on_folder2
+    example_file = subfiles(folder_ref, suffix=file_ending, join=True)[0]
+  File "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/lib/python3.10/site-packages/batchgenerators/utilities/file_and_folder_operations.py", line 69, in subfiles
+    with os.scandir(folder) as entries:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTsreal'

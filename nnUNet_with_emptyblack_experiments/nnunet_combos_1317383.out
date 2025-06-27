@@ -1,0 +1,277 @@
++ module purge
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ module load Anaconda3/2024.02-1
++ '[' -z '' ']'
++ case "$-" in
++ __lmod_sh_dbg=x
++ '[' -n x ']'
++ set +x
+Shell debugging temporarily silenced: export LMOD_SH_DBG_ON=1 for Lmod's output
+Shell debugging restarted
++ unset __lmod_sh_dbg
++ return 0
++ source activate nnunet_env2
+++ _CONDA_ROOT=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1
+++ . /opt/aumc-apps-eb/software/Anaconda3/2024.02-1/etc/profile.d/conda.sh
++++ export CONDA_EXE=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/conda
++++ CONDA_EXE=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/python
++++ CONDA_PYTHON_EXE=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/python
++++ '[' -z x ']'
+++ conda activate nnunet_env2
+++ local cmd=activate
+++ case "$cmd" in
+++ __conda_activate activate nnunet_env2
+++ '[' -n '' ']'
+++ local ask_conda
++++ PS1=
++++ __conda_exe shell.posix activate nnunet_env2
++++ /opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/conda shell.posix activate nnunet_env2
+++ ask_conda='. "/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/etc/conda/deactivate.d/libglib_deactivate.sh"
+PS1='\''(nnunet_env2) '\''
+export PATH='\''/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/condabin:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/sbin:/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin:/home/rth/jdekok/python3.10/bin:/home/rth/jdekok/.local/bin:/home/rth/jdekok/bin:/opt/slurm/current/bin:/opt/aumc/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_PREFIX='\''/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''nnunet_env2'\''
+export CONDA_PROMPT_MODIFIER='\''(nnunet_env2) '\''
+export CONDA_PREFIX_1='\''/opt/aumc-apps-eb/software/Anaconda3/2024.02-1'\''
+export CONDA_EXE='\''/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/python'\''
+. "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/conda/activate.d/libxml2_activate.sh"'
+++ eval '. "/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/etc/conda/deactivate.d/libglib_deactivate.sh"
+PS1='\''(nnunet_env2) '\''
+export PATH='\''/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/condabin:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/sbin:/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin:/home/rth/jdekok/python3.10/bin:/home/rth/jdekok/.local/bin:/home/rth/jdekok/bin:/opt/slurm/current/bin:/opt/aumc/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin'\''
+export CONDA_PREFIX='\''/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2'\''
+export CONDA_SHLVL='\''2'\''
+export CONDA_DEFAULT_ENV='\''nnunet_env2'\''
+export CONDA_PROMPT_MODIFIER='\''(nnunet_env2) '\''
+export CONDA_PREFIX_1='\''/opt/aumc-apps-eb/software/Anaconda3/2024.02-1'\''
+export CONDA_EXE='\''/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/conda'\''
+export _CE_M='\'''\''
+export _CE_CONDA='\'''\''
+export CONDA_PYTHON_EXE='\''/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/python'\''
+. "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/conda/activate.d/libxml2_activate.sh"'
++++ . /opt/aumc-apps-eb/software/Anaconda3/2024.02-1/etc/conda/deactivate.d/libglib_deactivate.sh
+++++ export GSETTINGS_SCHEMA_DIR=
+++++ GSETTINGS_SCHEMA_DIR=
+++++ unset GSETTINGS_SCHEMA_DIR_CONDA_BACKUP
+++++ '[' -z ']'
+++++ unset GSETTINGS_SCHEMA_DIR
++++ PS1='(nnunet_env2) '
++++ export PATH=/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/condabin:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/sbin:/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin:/home/rth/jdekok/python3.10/bin:/home/rth/jdekok/.local/bin:/home/rth/jdekok/bin:/opt/slurm/current/bin:/opt/aumc/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
++++ PATH=/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/condabin:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1:/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/sbin:/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin:/home/rth/jdekok/python3.10/bin:/home/rth/jdekok/.local/bin:/home/rth/jdekok/bin:/opt/slurm/current/bin:/opt/aumc/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
++++ export CONDA_PREFIX=/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2
++++ CONDA_PREFIX=/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2
++++ export CONDA_SHLVL=2
++++ CONDA_SHLVL=2
++++ export CONDA_DEFAULT_ENV=nnunet_env2
++++ CONDA_DEFAULT_ENV=nnunet_env2
++++ export 'CONDA_PROMPT_MODIFIER=(nnunet_env2) '
++++ CONDA_PROMPT_MODIFIER='(nnunet_env2) '
++++ export CONDA_PREFIX_1=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1
++++ CONDA_PREFIX_1=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1
++++ export CONDA_EXE=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/conda
++++ CONDA_EXE=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/conda
++++ export _CE_M=
++++ _CE_M=
++++ export _CE_CONDA=
++++ _CE_CONDA=
++++ export CONDA_PYTHON_EXE=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/python
++++ CONDA_PYTHON_EXE=/opt/aumc-apps-eb/software/Anaconda3/2024.02-1/bin/python
++++ . /home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/conda/activate.d/libxml2_activate.sh
+++++ test -n 'file:///home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/xml/catalog file:///etc/xml/catalog'
+++++ xml_catalog_files_libxml2='file:///home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/xml/catalog file:///etc/xml/catalog'
+++++ XML_CATALOG_FILES='file:///home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/xml/catalog file:///etc/xml/catalog '
+++++ conda_catalog_files=
+++++ ifs_libxml2=' 	
+'
+++++ IFS=' '
+++++ rem=/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2
+++++ for pre in ${rem}
+++++ test '' = /home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2
+++++ conda_catalog_files=/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2
+++++ rem=
+++++ IFS=' 	
+'
+++++ conda_catalog_files='file:///home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/xml/catalog file:///etc/xml/catalog'
+++++ export 'XML_CATALOG_FILES=file:///home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/xml/catalog file:///etc/xml/catalog file:///home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/xml/catalog file:///etc/xml/catalog'
+++++ XML_CATALOG_FILES='file:///home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/xml/catalog file:///etc/xml/catalog file:///home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/etc/xml/catalog file:///etc/xml/catalog'
+++++ unset conda_catalog_files ifs_libxml2 rem
+++ __conda_hashr
+++ '[' -n '' ']'
+++ '[' -n '' ']'
+++ hash -r
++ export nnUNet_raw=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw
++ nnUNet_raw=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw
++ export nnUNet_preprocessed=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed
++ nnUNet_preprocessed=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed
++ export nnUNet_results=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_results
++ nnUNet_results=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_results
++ export OMP_NUM_THREADS=4
++ OMP_NUM_THREADS=4
++ export MKL_NUM_THREADS=4
++ MKL_NUM_THREADS=4
++ export MKL_INTERFACE_LAYER=LP64
++ MKL_INTERFACE_LAYER=LP64
++ bash run_all_combos.sh
++ BASE_ID=520
++ CONFIG=3d_fullres
++ FOLD=0
++ RAW_REF=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour
++ GT_REAL=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs
++ PREP_REF=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed/Dataset520_NeckTumour
++ PLANS=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed/Dataset520_NeckTumour/nnUNetPlans.json
++ PP_PKL=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_results/Dataset520_NeckTumour/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/postprocessing.pkl
++ CHK=checkpoint_best.pth
++ COMB_ROOT=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnunet_black_combos
++ DATASETS=(741 742 743 744 745 746 747 748 751 752 753 754 755 756)
++ OUT_ROOT=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos
++ EVAL_ROOT=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/evaluation_results_black_trained
++ mkdir -p /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/evaluation_results_black_trained
++ for ID in "${DATASETS[@]}"
+++ readlink -f /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnunet_black_combos/Task741_allBlack
++ COMB=/scratch/rth/jdekok/nnunetv2/nnUNet/nnunet_black_combos/Task741_allBlack
++ IMGS=/scratch/rth/jdekok/nnunetv2/nnUNet/nnunet_black_combos/Task741_allBlack/imagesTr
++ TAG=Task741_allBlack
++ RAW_OUT=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/741
++ POST_OUT=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/741_post
++ mkdir -p /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/741 /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/741_post
++ echo '────────  predicting Task741_allBlack  ────────'
+────────  predicting Task741_allBlack  ────────
++ nnUNetv2_predict -i /scratch/rth/jdekok/nnunetv2/nnUNet/nnunet_black_combos/Task741_allBlack/imagesTr -o /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/741 -d 520 -c 3d_fullres -f 0 -chk checkpoint_best.pth --disable_tta --save_probabilities
+/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/lib/python3.10/site-packages/nnunetv2/inference/predict_from_raw_data.py:84: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(join(model_training_output_dir, f'fold_{f}', checkpoint_name),
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+
+There are 16 cases in the source folder
+I am process 0 out of 1 (max process ID is 0, we start counting with 0!)
+There are 16 cases that I would like to predict
+
+Predicting 000:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:01<00:36,  1.41s/it] 30%|██▉       | 8/27 [00:01<00:02,  6.97it/s] 44%|████▍     | 12/27 [00:01<00:01, 10.29it/s] 59%|█████▉    | 16/27 [00:01<00:00, 13.65it/s] 74%|███████▍  | 20/27 [00:01<00:00, 16.79it/s] 89%|████████▉ | 24/27 [00:02<00:00, 19.55it/s]100%|██████████| 27/27 [00:02<00:00, 21.40it/s]100%|██████████| 27/27 [00:02<00:00, 12.39it/s]
+sending off prediction to background worker for resampling and export
+done with 000
+
+Predicting 001:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 22%|██▏       | 6/27 [00:00<00:00, 54.05it/s] 44%|████▍     | 12/27 [00:00<00:00, 39.20it/s] 63%|██████▎   | 17/27 [00:00<00:00, 34.31it/s] 78%|███████▊  | 21/27 [00:00<00:00, 32.45it/s] 93%|█████████▎| 25/27 [00:00<00:00, 29.78it/s]100%|██████████| 27/27 [00:00<00:00, 32.96it/s]
+sending off prediction to background worker for resampling and export
+done with 001
+
+Predicting 002:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s]  7%|▋         | 2/27 [00:00<00:01, 19.53it/s] 19%|█▊        | 5/27 [00:00<00:00, 25.28it/s] 30%|██▉       | 8/27 [00:00<00:00, 23.41it/s] 41%|████      | 11/27 [00:00<00:00, 24.14it/s] 52%|█████▏    | 14/27 [00:00<00:00, 23.85it/s] 67%|██████▋   | 18/27 [00:00<00:00, 28.47it/s] 78%|███████▊  | 21/27 [00:00<00:00, 27.78it/s] 89%|████████▉ | 24/27 [00:00<00:00, 27.23it/s]100%|██████████| 27/27 [00:00<00:00, 27.52it/s]
+sending off prediction to background worker for resampling and export
+done with 002
+
+Predicting 003:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 11%|█         | 3/27 [00:00<00:00, 29.71it/s] 22%|██▏       | 6/27 [00:00<00:00, 29.74it/s] 33%|███▎      | 9/27 [00:00<00:00, 24.96it/s] 44%|████▍     | 12/27 [00:00<00:00, 21.55it/s] 59%|█████▉    | 16/27 [00:00<00:00, 24.96it/s] 81%|████████▏ | 22/27 [00:00<00:00, 33.27it/s] 96%|█████████▋| 26/27 [00:00<00:00, 30.69it/s]100%|██████████| 27/27 [00:00<00:00, 28.22it/s]
+sending off prediction to background worker for resampling and export
+done with 003
+
+Predicting 004:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 19%|█▊        | 5/27 [00:00<00:00, 47.20it/s] 37%|███▋      | 10/27 [00:00<00:00, 39.52it/s] 56%|█████▌    | 15/27 [00:00<00:00, 33.88it/s] 70%|███████   | 19/27 [00:00<00:00, 32.07it/s] 85%|████████▌ | 23/27 [00:00<00:00, 31.22it/s]100%|██████████| 27/27 [00:00<00:00, 30.42it/s]100%|██████████| 27/27 [00:00<00:00, 32.49it/s]
+sending off prediction to background worker for resampling and export
+done with 004
+
+Predicting 005:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 22%|██▏       | 6/27 [00:00<00:00, 59.63it/s] 44%|████▍     | 12/27 [00:00<00:00, 35.43it/s] 63%|██████▎   | 17/27 [00:00<00:00, 33.36it/s] 78%|███████▊  | 21/27 [00:00<00:00, 31.59it/s] 93%|█████████▎| 25/27 [00:00<00:00, 30.72it/s]100%|██████████| 27/27 [00:00<00:00, 32.29it/s]
+sending off prediction to background worker for resampling and export
+done with 005
+
+Predicting 006:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s]  4%|▎         | 1/27 [00:00<00:04,  5.52it/s] 11%|█         | 3/27 [00:00<00:02, 11.75it/s] 19%|█▊        | 5/27 [00:00<00:01, 12.37it/s] 30%|██▉       | 8/27 [00:00<00:01, 17.09it/s] 37%|███▋      | 10/27 [00:00<00:00, 17.12it/s] 52%|█████▏    | 14/27 [00:00<00:00, 20.86it/s] 63%|██████▎   | 17/27 [00:00<00:00, 21.01it/s] 78%|███████▊  | 21/27 [00:01<00:00, 24.57it/s] 93%|█████████▎| 25/27 [00:01<00:00, 26.05it/s]100%|██████████| 27/27 [00:01<00:00, 21.03it/s]
+sending off prediction to background worker for resampling and export
+done with 006
+
+Predicting 007:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s]  7%|▋         | 2/27 [00:00<00:01, 19.17it/s] 19%|█▊        | 5/27 [00:00<00:00, 25.34it/s] 30%|██▉       | 8/27 [00:00<00:00, 27.13it/s] 41%|████      | 11/27 [00:00<00:00, 27.70it/s] 52%|█████▏    | 14/27 [00:00<00:00, 23.28it/s] 78%|███████▊  | 21/27 [00:00<00:00, 33.78it/s] 93%|█████████▎| 25/27 [00:00<00:00, 31.79it/s]100%|██████████| 27/27 [00:00<00:00, 29.48it/s]
+sending off prediction to background worker for resampling and export
+done with 007
+
+Predicting 008:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 22%|██▏       | 6/27 [00:00<00:00, 56.44it/s] 44%|████▍     | 12/27 [00:00<00:00, 36.08it/s] 63%|██████▎   | 17/27 [00:00<00:00, 32.51it/s] 78%|███████▊  | 21/27 [00:00<00:00, 31.63it/s] 93%|█████████▎| 25/27 [00:00<00:00, 30.79it/s]100%|██████████| 27/27 [00:00<00:00, 32.52it/s]
+sending off prediction to background worker for resampling and export
+done with 008
+
+Predicting 009:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s]  7%|▋         | 2/27 [00:00<00:01, 16.80it/s] 15%|█▍        | 4/27 [00:00<00:01, 12.41it/s] 22%|██▏       | 6/27 [00:00<00:01, 14.13it/s] 30%|██▉       | 8/27 [00:00<00:01, 13.81it/s] 44%|████▍     | 12/27 [00:00<00:00, 17.73it/s] 56%|█████▌    | 15/27 [00:00<00:00, 19.76it/s] 70%|███████   | 19/27 [00:01<00:00, 22.32it/s] 85%|████████▌ | 23/27 [00:01<00:00, 25.02it/s] 96%|█████████▋| 26/27 [00:01<00:00, 25.83it/s]100%|██████████| 27/27 [00:01<00:00, 20.93it/s]
+sending off prediction to background worker for resampling and export
+done with 009
+
+Predicting 010:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 26%|██▌       | 7/27 [00:00<00:00, 57.39it/s] 48%|████▊     | 13/27 [00:00<00:00, 37.39it/s] 67%|██████▋   | 18/27 [00:00<00:00, 33.65it/s] 81%|████████▏ | 22/27 [00:00<00:00, 31.68it/s] 96%|█████████▋| 26/27 [00:00<00:00, 30.77it/s]100%|██████████| 27/27 [00:00<00:00, 33.21it/s]
+sending off prediction to background worker for resampling and export
+done with 010
+
+Predicting 011:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 22%|██▏       | 6/27 [00:00<00:00, 48.18it/s] 41%|████      | 11/27 [00:00<00:00, 34.42it/s] 56%|█████▌    | 15/27 [00:00<00:00, 31.94it/s] 70%|███████   | 19/27 [00:00<00:00, 25.69it/s] 85%|████████▌ | 23/27 [00:00<00:00, 28.65it/s]100%|██████████| 27/27 [00:00<00:00, 28.74it/s]100%|██████████| 27/27 [00:00<00:00, 29.93it/s]
+sending off prediction to background worker for resampling and export
+done with 011
+
+Predicting 012:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 15%|█▍        | 4/27 [00:00<00:00, 36.32it/s] 33%|███▎      | 9/27 [00:00<00:00, 38.59it/s] 48%|████▊     | 13/27 [00:00<00:00, 32.56it/s] 63%|██████▎   | 17/27 [00:00<00:00, 34.09it/s] 78%|███████▊  | 21/27 [00:00<00:00, 29.80it/s] 93%|█████████▎| 25/27 [00:00<00:00, 29.87it/s]100%|██████████| 27/27 [00:00<00:00, 30.78it/s]
+sending off prediction to background worker for resampling and export
+done with 012
+
+Predicting 013:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 15%|█▍        | 4/27 [00:00<00:00, 37.67it/s] 33%|███▎      | 9/27 [00:00<00:00, 42.35it/s] 52%|█████▏    | 14/27 [00:00<00:00, 35.13it/s] 67%|██████▋   | 18/27 [00:00<00:00, 32.04it/s] 81%|████████▏ | 22/27 [00:00<00:00, 31.59it/s] 96%|█████████▋| 26/27 [00:00<00:00, 30.76it/s]100%|██████████| 27/27 [00:00<00:00, 32.47it/s]
+sending off prediction to background worker for resampling and export
+done with 013
+
+Predicting 014:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 19%|█▊        | 5/27 [00:00<00:00, 38.87it/s] 33%|███▎      | 9/27 [00:00<00:00, 38.07it/s] 48%|████▊     | 13/27 [00:00<00:00, 35.89it/s] 63%|██████▎   | 17/27 [00:00<00:00, 32.94it/s] 78%|███████▊  | 21/27 [00:00<00:00, 31.11it/s] 93%|█████████▎| 25/27 [00:00<00:00, 30.75it/s]100%|██████████| 27/27 [00:00<00:00, 31.91it/s]
+sending off prediction to background worker for resampling and export
+done with 014
+
+Predicting 015:
+perform_everything_on_device: True
+  0%|          | 0/27 [00:00<?, ?it/s] 15%|█▍        | 4/27 [00:00<00:00, 39.78it/s] 33%|███▎      | 9/27 [00:00<00:00, 40.97it/s] 52%|█████▏    | 14/27 [00:00<00:00, 34.97it/s] 67%|██████▋   | 18/27 [00:00<00:00, 32.23it/s] 81%|████████▏ | 22/27 [00:00<00:00, 31.93it/s] 96%|█████████▋| 26/27 [00:00<00:00, 30.68it/s]100%|██████████| 27/27 [00:00<00:00, 32.55it/s]
+sending off prediction to background worker for resampling and export
+done with 015
++ echo '────────  evaluating  (raw) Task741_allBlack  ────────'
+────────  evaluating  (raw) Task741_allBlack  ────────
++ nnUNetv2_evaluate_folder -djfile /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/dataset.json -pfile /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed/Dataset520_NeckTumour/nnUNetPlans.json -o /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/evaluation_results_black_trained/741_raw_GTreal.json /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/labelsTs /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/741
+Using <class 'nnunetv2.imageio.simpleitk_reader_writer.SimpleITKIO'> reader/writer
++ echo '────────  post-processing Task741_allBlack  ────────'
+────────  post-processing Task741_allBlack  ────────
++ nnUNetv2_apply_postprocessing -i /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/741 -o /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/predictions_black_trained_combos/741_post -pp_pkl_file /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_results/Dataset520_NeckTumour/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/postprocessing.pkl -plans_json /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed/Dataset520_NeckTumour/nnUNetPlans.json -dataset_json /home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw/Dataset520_NeckTumour/dataset.json
+Traceback (most recent call last):
+  File "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/bin/nnUNetv2_apply_postprocessing", line 8, in <module>
+    sys.exit(entry_point_apply_postprocessing())
+  File "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/lib/python3.10/site-packages/nnunetv2/postprocessing/remove_connected_components.py", line 332, in entry_point_apply_postprocessing
+    pp_fns, pp_fn_kwargs = load_pickle(args.pp_pkl_file)
+  File "/home/rth/jdekok/my-scratch/.conda/envs/nnunet_env2/lib/python3.10/site-packages/batchgenerators/utilities/file_and_folder_operations.py", line 92, in load_pickle
+    with open(file, mode) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_results/Dataset520_NeckTumour/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/validation/postprocessing.pkl'

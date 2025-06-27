@@ -1,0 +1,3 @@
+CUDA_VISIBLE_DEVICES=0
+WARNING: Not all files in folder_ref were found in folder_predictions. Determining postprocessing should always be done on the entire dataset!
+Results were improved by removing all but the largest foreground region. Mean dice before: 0.78285 after: 0.78314

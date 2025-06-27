@@ -1,0 +1,2 @@
+“CUDA_VISIBLE_DEVICES=0”
+Using <class 'nnunetv2.imageio.simpleitk_reader_writer.SimpleITKIO'> reader/writer

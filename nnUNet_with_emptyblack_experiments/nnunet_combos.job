@@ -1,0 +1,38 @@
+#!/bin/bash
+###############################################################################
+#  Slurm directives – adjust to your queue limits
+###############################################################################
+#SBATCH --job-name=nnunet_combos
+#SBATCH --output=nnunet_combos_%j.out     # %j = job-ID
+#SBATCH --partition=luna-gpu-long        # or luna-gpu-long, etc.
+#SBATCH --gres=gpu:4g.40gb:1              # 1 A100-slice (40 GB)
+#SBATCH --cpus-per-task=4
+#SBATCH --mem=32G
+#SBATCH --time=01-00:00                    # 1 day; enlarge if needed
+#SBATCH --nice=0
+###############################################################################
+
+set -Eeuo pipefail
+set -x               # <– prints every command + its arguments
+
+
+# 1) Load software stack
+module purge
+module load Anaconda3/2024.02-1           # same as you used interactively
+
+# 2) Activate the environment that has nnU-Net v2 installed
+source activate nnunet_env2              # or 'conda activate <env-name>'
+
+# 3) Export nnU-Net paths (adjust if you moved them)
+export nnUNet_raw=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_raw
+export nnUNet_preprocessed=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_preprocessed
+export nnUNet_results=/home/rth/jdekok/my-scratch/nnunetv2/nnUNet/nnUNet_results
+
+# optional but often helpful:
+export OMP_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export MKL_NUM_THREADS=$SLURM_CPUS_PER_TASK
+export MKL_INTERFACE_LAYER=LP64
+
+# 4) Run the master script (sequentially executes all 14 combos)
+bash run_all_combos.sh
+
