@@ -22,12 +22,12 @@ This code supports experiments conducted during the thesis project focused on le
 
 ```bash
 Generative-Medical-Imaging-and-Tumor-Segmentation/
-├── nnUNet/             # nnU-Net model files plus jobfiles, output files and registering data code.
-├── seq2seqOGreal/            # Seq2Seq model files plus all files needed to convert extra data to usable format, 
-├── NestedFormer-main/       # Experimental NestedFormer files
-├── nnUNet_results & nnUNet_with_emptyblack_experiments/       # Results, jobfiles, output files and more from Luna cluster for both original and empty input experiments. Some files will be the same in both folders, but for completeness they both contain all info plus the files specifically for their own experiments
-├── p44scans/            # Example outputs, graphs, difference maps and figures from the thesis
 ├── Extra/            # Unordened files in which i wrote down things to remember for my thesis, and usage of the Luna cluster, it also includes code for dealing with extra data which can be used in combination with the files in the seq2seqOGreal folder
+├── NestedFormer-main/       # Experimental NestedFormer files
+├── p44scans/            # Example outputs, graphs, difference maps and figures from the thesis
+├── nnUNet/             # nnU-Net model files plus jobfiles, output files and registering data code.
+├── nnUNet_results & nnUNet_with_emptyblack_experiments/       # Results, jobfiles, output files and more from Luna cluster for both original and empty input experiments. Some files will be the same in both folders, but for completeness they both contain all info plus the files specifically for their own experiments
+├── seq2seqOGreal/            # Seq2Seq model files plus all files needed to convert extra data to usable format, 
 ├── README.md           # You are here!
 ```
 
