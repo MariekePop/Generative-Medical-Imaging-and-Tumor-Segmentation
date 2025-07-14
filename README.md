@@ -68,11 +68,23 @@ Contains code for training and evaluating segmentation models on 3D multi-channe
 ### Environment Setup
 
 ```bash
+conda create -n nnunetv2 python=3.9
+conda activate nnunetv2
+pip install torch
 git clone https://github.com/MIC-DKFZ/nnUNet.git
-pip install -e ./nnUNet
+cd nnUNet
+pip install -e .
 ```
 
 See [nnUNet Installation Guide](https://github.com/MIC-DKFZ/nnUNet/blob/master/documentation/installation.md) for system-specific steps.
+
+
+Alternatively use our included environment:
+
+```bash
+conda env create -f nnunett.yml
+conda activate nnunetv2
+```
 
 ### Files in Folder besides the original nnUNet files
 
@@ -127,15 +139,21 @@ Code for training a generative model that synthesizes missing MRI modalities fro
 ### Environment Setup
 
 ```bash
-git clone https://github.com/MedARC-AI/Seq2Seq.git
-pip install -r requirements.txt
+conda create -n nnseq2seq python=3.10
+conda activate nnseq2seq
+pip install torch torchvision torchaudio
+git clone https://github.com/fiy2W/mri_seq2seq.git
+cd mri_seq2seq
+pip install -e 
 ```
+See [seq2seq Installation Guide](https://github.com/fiy2W/mri_seq2seq/blob/main/nnseq2seq/docs/installation_instructions.md) for system-specific steps.
+
 
 Alternatively use our included environment:
 
 ```bash
-conda env create -f seq2seq_env.yml
-conda activate seq2seq
+conda env create -f nnseq2seq.yml
+conda activate nnseq2seq
 ```
 
 ### Files in Folder besides the original seq2seq files
@@ -192,7 +210,18 @@ Transformer-based segmentation model using modality-specific encoders and cross-
 ```bash
 conda create -n nestedformer python=3.9
 conda activate nestedformer
-pip install -r nestedformer/requirements.txt
+pip install monai
+pip install tqdm
+pip install tensorboardX
+```
+See [nestedformer Installation Guide](https://github.com/fiy2W/mri_seq2seq/blob/main/nnseq2seq/docs/installation_instructions.md) for system-specific steps.
+
+
+Alternatively use our included environment:
+
+```bash
+conda env create -f nestedformer.yml
+conda activate nestedformer
 ```
 
 ### Files in Folder
