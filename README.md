@@ -140,7 +140,7 @@ conda activate seq2seq
 
 ### Files in Folder besides the original seq2seq files
 
-`.job & .out files` – The job and output files
+- `.job & .out files` – The job and output files
 - `Seq2seq_test_real_or_gen` Powerpoint with scans used for the blinded visual test
 - `compute_diff_maps` Code to make the difference maps
 - `complete_sequences.py` Make one folder with all real scans filled with the generated scans from the seq2seq folder
