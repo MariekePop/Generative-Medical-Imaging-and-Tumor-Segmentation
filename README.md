@@ -50,7 +50,7 @@ cd Generative-Medical-Imaging-and-Tumor-Segmentation
 
 ```bash
 conda env create -f environment.yml
-conda activate generative-mri
+conda activate "env"
 ```
 
 ---
