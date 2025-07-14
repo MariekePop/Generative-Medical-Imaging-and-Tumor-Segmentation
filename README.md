@@ -32,6 +32,7 @@ Generative-Medical-Imaging-and-Tumor-Segmentation/
 ```
 
 ---
+Please note that due to privacy concerns no data is made available
 
 ## Installation (General Setup)
 
@@ -110,8 +111,6 @@ python results_eval/eval_segmentation.py --pred_dir /output/folder --gt_dir /gro
 
 - Segmentation masks (Nifti format)
 - Dice, IoU, ASSD, HD95 metrics
-- Radiologist-blind preference tests
-- Figures stored in `/figures/`
 
 ---
 
@@ -174,7 +173,7 @@ python utils/plot_difference_maps.py --real /real/scans --pred /predicted/scans
 
 - Generated MRI sequences (Nifti)
 - SSIM, PSNR, LPIPS, Pixel Accuracy metrics
-- Difference maps and radiologist judgment (Appendix B of thesis)
+- Difference maps
 
 ---
 
